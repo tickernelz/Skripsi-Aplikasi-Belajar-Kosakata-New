@@ -25,7 +25,7 @@ MonoBehaviour:
   formulaDrag: 250
   schematicDrag: 400
   jumpListDrag: 250
-  dataSelectionSorting: 0
+  dataSelectionSorting: 1
   typeDataSelectionSorting: 0
   createBackup: 1
   updateSchematics: 1
