@@ -1819,8 +1819,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1462982623}
-        m_TargetAssemblyTypeName: startmenu, Assembly-CSharp
-        m_MethodName: StartGame
+        m_TargetAssemblyTypeName: SelamatDatang, Assembly-CSharp
+        m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3069,10 +3069,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1462982618}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91d48da5c3afa424aa1333bf2e33db16, type: 3}
+  m_Script: {fileID: 11500000, guid: d59188850b4f412f83a270d1b24b358a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Main Menu
+  sceneName: MainMenu
+  volume: 1
 --- !u!1 &1544922946
 GameObject:
   m_ObjectHideFlags: 0

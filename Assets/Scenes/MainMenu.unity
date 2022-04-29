@@ -1517,6 +1517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1075474298}
   - component: {fileID: 1075474299}
+  - component: {fileID: 1075474301}
   - component: {fileID: 1075474300}
   m_Layer: 0
   m_Name: backsound
@@ -1649,9 +1650,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1075474299}
-  volume: 100
+  volume: 0
   soundon: {fileID: 0}
   soundoff: {fileID: 0}
+--- !u!81 &1075474301
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075474296}
+  m_Enabled: 1
 --- !u!1 &1293830212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1736,8 +1745,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1418312357}
-        m_TargetAssemblyTypeName: startmenu, Assembly-CSharp
-        m_MethodName: StartGame
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2036,10 +2045,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1418312352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91d48da5c3afa424aa1333bf2e33db16, type: 3}
+  m_Script: {fileID: 11500000, guid: ca0b4cc8c079466a865f9eb6e25457cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Selamat Datang
+  sceneName: SelamatDatang
+  volume: 0.2
 --- !u!1 &1497280017
 GameObject:
   m_ObjectHideFlags: 0

@@ -28,6 +28,7 @@ public class backsound : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        volume = PlayerPrefs.GetFloat("volume", 1f);
         audioSource.volume = volume;
         audioSource.Play();
     }
@@ -37,6 +38,8 @@ public class backsound : MonoBehaviour
     {
         soundon = GameObject.Find("sound on");
         soundoff = GameObject.Find("sound off");
+        volume = PlayerPrefs.GetFloat("volume", 1f);
+        AudioListener.volume = volume;
         if (soundoff)
         {
             audioSource.Pause();
