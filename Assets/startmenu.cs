@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class startmenu : MonoBehaviour
 {
-    public void exit() {
+    public string sceneName;
+    public void StartGame()
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+    public void Exit() {
         Application.Quit();
-    }
-
-    public void play(string scene_name) {
-        Application.LoadLevel(scene_name);
-    }
-
-    public void sound_volume(float volume) {
-        PlayerPrefs.SetFloat("volume",volume);    
     }
 }

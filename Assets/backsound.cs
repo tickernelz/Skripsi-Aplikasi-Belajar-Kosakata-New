@@ -4,19 +4,31 @@ using UnityEngine;
 
 public class backsound : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public float volume;
+    public GameObject soundon, soundoff;
+
     // Start is called before the first frame update
     void Start()
     {
-        if (gameObject.Find("backsound on")==null) {
-            DontDestroyOnLoad(gameObject);
-            GetComponent<AudioSource>().Play();
-            gameObject.name = "backsound on";
-            PlayerPrefs.SetFloat("volume", 1);
-        }
+        audioSource = GetComponent<AudioSource>();
+        audioSource.volume = volume;
+        audioSource.Play();
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-        GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("volume");
+        soundon = GameObject.Find("sound on");
+        soundoff = GameObject.Find("sound off");
+        if (soundoff)
+        {
+            audioSource.Pause();
+        }
+        else if (soundon)
+        {
+            audioSource.UnPause();
+        }
+    }
 }
