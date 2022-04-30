@@ -1,1 +1,0 @@
-DO NOT Import this asset in this project. Create New Project and then Import.
