@@ -13,6 +13,8 @@
     <package>com.google.firebase:firebase-dynamic-links-unity:8.9.0</package>
     <package>com.google.firebase:firebase-firestore:24.1.0</package>
     <package>com.google.firebase:firebase-firestore-unity:8.9.0</package>
+    <package>com.google.firebase:firebase-functions:20.0.2</package>
+    <package>com.google.firebase:firebase-functions-unity:8.9.0</package>
     <package>com.google.firebase:firebase-storage:20.0.1</package>
     <package>com.google.firebase:firebase-storage-unity:8.9.0</package>
   </packages>
@@ -79,6 +81,10 @@
     <file>Assets/Plugins/Android/com.google.firebase.firebase-dynamic-links-unity-8.9.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-firestore-24.1.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-firestore-unity-8.9.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-functions-20.0.2.aar</file>
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-functions-unity-8.9.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-iid-20.0.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-iid-interop-17.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-installations-17.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-installations-interop-17.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-19.0.0.aar</file>
@@ -91,6 +97,7 @@
     <file>Assets/Plugins/Android/com.google.j2objc.j2objc-annotations-1.3.jar</file>
     <file>Assets/Plugins/Android/com.google.protobuf.protobuf-javalite-3.19.2.jar</file>
     <file>Assets/Plugins/Android/com.squareup.okhttp.okhttp-2.7.5.jar</file>
+    <file>Assets/Plugins/Android/com.squareup.okhttp3.okhttp-3.12.1.jar</file>
     <file>Assets/Plugins/Android/com.squareup.okio.okio-1.17.5.jar</file>
     <file>Assets/Plugins/Android/io.grpc.grpc-android-1.44.1.aar</file>
     <file>Assets/Plugins/Android/io.grpc.grpc-api-1.44.1.jar</file>
