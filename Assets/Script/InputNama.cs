@@ -7,15 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class InputNama : MonoBehaviour
 {
-    public string sceneName;
-    public float volume;
     private string nama, sekolah;
     private GameObject nama_obj, sekolah_obj;
-    public void ChangeScene()
-    {
-        SceneManager.LoadScene(sceneName);
-        PlayerPrefs.SetFloat("volume", volume);
-    }
+    
     public void SaveInput()
     {
         nama_obj = GameObject.Find("Field/Nama");
