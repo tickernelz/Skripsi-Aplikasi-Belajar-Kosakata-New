@@ -1,6 +1,6 @@
 ﻿public class Constant
 {
 
-	public const string FirebaseStorageURL = "gs://all-in-one-firebase-ab2bf.appspot.com";
-	public const string FirebaseDatabaseURL = "https://all-in-one-firebase-ab2bf.firebaseio.com/";
+	public const string FirebaseStorageURL = "gs://belajar-kosakata-arab.appspot.com";
+	public const string FirebaseDatabaseURL = "https://belajar-kosakata-arab-default-rtdb.asia-southeast1.firebasedatabase.app/";
 }
