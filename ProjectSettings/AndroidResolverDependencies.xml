@@ -7,6 +7,8 @@
     <package>com.google.firebase:firebase-auth:21.0.3</package>
     <package>com.google.firebase:firebase-auth-unity:8.9.0</package>
     <package>com.google.firebase:firebase-common:20.1.0</package>
+    <package>com.google.firebase:firebase-config:21.0.2</package>
+    <package>com.google.firebase:firebase-config-unity:8.9.0</package>
     <package>com.google.firebase:firebase-database:20.0.4</package>
     <package>com.google.firebase:firebase-database-unity:8.9.0</package>
     <package>com.google.firebase:firebase-dynamic-links:21.0.1</package>
@@ -73,6 +75,7 @@
     <file>Assets/Plugins/Android/com.google.code.findbugs.jsr305-3.0.2.jar</file>
     <file>Assets/Plugins/Android/com.google.code.gson.gson-2.8.9.jar</file>
     <file>Assets/Plugins/Android/com.google.errorprone.error_prone_annotations-2.9.0.jar</file>
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-abt-21.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-analytics-20.1.2.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-analytics-unity-8.9.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-annotations-16.1.0.jar</file>
@@ -83,6 +86,8 @@
     <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-8.9.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-common-20.1.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-components-17.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-config-21.0.2.aar</file>
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-config-unity-8.9.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-database-20.0.4.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-database-collection-18.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-database-unity-8.9.0.aar</file>
