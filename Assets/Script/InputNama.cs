@@ -24,7 +24,10 @@ public class InputNama : MonoBehaviour
             sekolah = sekolah_obj.GetComponent<TMP_InputField>().text;
             PlayerPrefs.SetString("sekolah", sekolah);
         }
-    }
+        public TextMeshProUGUI user_name;
+    public TMP_InputField user_inputField;
+
+}
     public void Exit() {
         Application.Quit();
     }
