@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    public Button signupButton;
+    public Button signupButton, loginButton, logoutButton;
 
     public void Update()
     {
@@ -13,6 +13,8 @@ public class MainMenu : MonoBehaviour
         if (user != null)
         {
             signupButton.gameObject.SetActive(false);
+            loginButton.gameObject.SetActive(false);
+            logoutButton.gameObject.SetActive(true);
             string name = user.DisplayName;
             string email = user.Email;
             System.Uri photo_url = user.PhotoUrl;
@@ -24,6 +26,8 @@ public class MainMenu : MonoBehaviour
         else
         {
             signupButton.gameObject.SetActive(true);
+            loginButton.gameObject.SetActive(true);
+            logoutButton.gameObject.SetActive(false);
         }
     }
 

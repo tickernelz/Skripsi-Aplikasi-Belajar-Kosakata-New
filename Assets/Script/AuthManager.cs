@@ -10,7 +10,8 @@ public class AuthManager : MonoBehaviour
     public NotificationManager signupFailNotification,
         signupSuccessNotification,
         signinFailNotification,
-        signinSuccessNotification;
+        signinSuccessNotification,
+        logoutNotification;
 
     public GameObject emailSignup, passwordSignup, emailSignin, passwordSignin;
 
@@ -94,5 +95,13 @@ public class AuthManager : MonoBehaviour
                 Debug.LogFormat("Firebase user created successfully: {0} ({1})",
                     newUser.DisplayName, newUser.UserId);
             });
+    }
+    
+    public void OnClickLogout()
+    {
+        FirebaseAuth auth = FirebaseAuth.DefaultInstance;
+        auth.SignOut();
+        logoutNotification.OpenNotification();
+        Debug.Log("Logout Successful");
     }
 }
