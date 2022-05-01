@@ -3,11 +3,16 @@ using Firebase.Extensions;
 using Michsky.UI.ModernUIPack;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AuthManager : MonoBehaviour
 {
-    public NotificationManager signupFailNotification,signupSuccessNotification;
-    public GameObject email, password;
+    public NotificationManager signupFailNotification,
+        signupSuccessNotification,
+        signinFailNotification,
+        signinSuccessNotification;
+
+    public GameObject emailSignup, passwordSignup, emailSignin, passwordSignin;
 
     // Start is called before the first frame update
     public virtual void Start()
@@ -25,14 +30,14 @@ public class AuthManager : MonoBehaviour
         });
     }
 
-
     public void OnClickSignIn()
     {
+        FirebaseAuth auth = FirebaseAuth.DefaultInstance;
         Debug.Log("Clicked SignIn");
-        string emailText = email.GetComponent<TMP_InputField>().text;
-        string passwordText = password.GetComponent<TMP_InputField>().text;
-        FirebaseAuth.DefaultInstance.SignInWithEmailAndPasswordAsync(emailText,
-            passwordText).ContinueWith(task =>
+        string emailText = emailSignin.GetComponent<TMP_InputField>().text;
+        string passwordText = passwordSignin.GetComponent<TMP_InputField>().text;
+        auth.SignInWithEmailAndPasswordAsync(emailText,
+            passwordText).ContinueWithOnMainThread(task =>
         {
             if (task.IsCanceled)
             {
@@ -45,10 +50,12 @@ public class AuthManager : MonoBehaviour
             {
                 Debug.Log("SignIn Failed");
                 Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception);
+                signinFailNotification.OpenNotification();
                 return;
             }
 
             FirebaseUser newUser = task.Result;
+            signinSuccessNotification.OpenNotification();
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 newUser.DisplayName, newUser.UserId);
         });
@@ -57,10 +64,11 @@ public class AuthManager : MonoBehaviour
 
     public void OnClickSignUp()
     {
+        FirebaseAuth auth = FirebaseAuth.DefaultInstance;
         Debug.Log("Clicked SignUp");
-        string emailText = email.GetComponent<TMP_InputField>().text;
-        string passwordText = password.GetComponent<TMP_InputField>().text;
-        FirebaseAuth.DefaultInstance.CreateUserWithEmailAndPasswordAsync(emailText,
+        string emailText = emailSignup.GetComponent<TMP_InputField>().text;
+        string passwordText = passwordSignup.GetComponent<TMP_InputField>().text;
+        auth.CreateUserWithEmailAndPasswordAsync(emailText,
                 passwordText)
             .ContinueWithOnMainThread(task =>
             {

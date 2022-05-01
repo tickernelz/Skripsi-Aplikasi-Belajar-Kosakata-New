@@ -2485,7 +2485,7 @@ GameObject:
   - component: {fileID: 2305389640308940089}
   - component: {fileID: 2305389640308940094}
   m_Layer: 5
-  m_Name: Signup Modal
+  m_Name: Arabic Form Modal
   m_TagString: Untagged
   m_Icon: {fileID: 2800000, guid: 443b1643bec077e478f70a7a0fd1adcd, type: 3}
   m_NavMeshLayer: 0
