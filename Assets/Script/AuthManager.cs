@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class AuthManager : MonoBehaviour
 {
-    public NotificationManager signupFailNotification;
+    public NotificationManager signupFailNotification,signupSuccessNotification;
     public GameObject email, password;
 
     // Start is called before the first frame update
@@ -68,6 +68,7 @@ public class AuthManager : MonoBehaviour
                 {
                     Debug.Log("Signup Canceled");
                     Debug.LogError("CreateUserWithEmailAndPasswordAsync was canceled.");
+                    signupSuccessNotification.OpenNotification();
                     return;
                 }
 
