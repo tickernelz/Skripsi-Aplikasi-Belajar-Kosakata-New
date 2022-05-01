@@ -68,7 +68,6 @@ public class AuthManager : MonoBehaviour
                 {
                     Debug.Log("Signup Canceled");
                     Debug.LogError("CreateUserWithEmailAndPasswordAsync was canceled.");
-                    signupSuccessNotification.OpenNotification();
                     return;
                 }
 
@@ -83,6 +82,7 @@ public class AuthManager : MonoBehaviour
                 // Firebase user has been created.
                 Debug.Log("Signup Successful");
                 FirebaseUser newUser = task.Result;
+                signupSuccessNotification.OpenNotification();
                 Debug.LogFormat("Firebase user created successfully: {0} ({1})",
                     newUser.DisplayName, newUser.UserId);
             });
