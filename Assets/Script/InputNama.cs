@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using RTLTMPro;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class InputNama : MonoBehaviour
 {

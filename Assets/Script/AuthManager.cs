@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using Firebase.Auth;
 using Firebase.Extensions;
 using Michsky.UI.ModernUIPack;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class AuthManager : MonoBehaviour
 {
