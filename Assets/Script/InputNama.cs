@@ -29,12 +29,14 @@ public class InputNama : MonoBehaviour
                 nama = snapshot.Child(user.UserId).Child("nama").Value.ToString();
                 sekolah = snapshot.Child(user.UserId).Child("sekolah").Value.ToString();
             });
-            if (namaObj.GetComponent<TMP_InputField>().text == "" && namaObj.GetComponent<TMP_InputField>().isFocused != true)
+            if (namaObj.GetComponent<TMP_InputField>().text == "" &&
+                namaObj.GetComponent<TMP_InputField>().isFocused != true)
             {
                 namaObj.GetComponent<TMP_InputField>().text = nama;
             }
 
-            if (sekolahObj.GetComponent<TMP_InputField>().text == "" && sekolahObj.GetComponent<TMP_InputField>().isFocused != true)
+            if (sekolahObj.GetComponent<TMP_InputField>().text == "" &&
+                sekolahObj.GetComponent<TMP_InputField>().isFocused != true)
             {
                 sekolahObj.GetComponent<TMP_InputField>().text = sekolah;
             }
