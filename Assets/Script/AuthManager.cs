@@ -1,4 +1,5 @@
 using Firebase.Auth;
+using Firebase.Database;
 using Firebase.Extensions;
 using Michsky.UI.ModernUIPack;
 using TMPro;
@@ -56,9 +57,12 @@ public class AuthManager : MonoBehaviour
             }
 
             FirebaseUser newUser = task.Result;
-            signinSuccessNotification.OpenNotification();
-            Debug.LogFormat("User signed in successfully: {0} ({1})",
-                newUser.DisplayName, newUser.UserId);
+            if (newUser != null)
+            {
+                signinSuccessNotification.OpenNotification();
+                Debug.LogFormat("User signed in successfully: {0} ({1})",
+                    newUser.DisplayName, newUser.UserId);
+            }
         });
     }
 
@@ -91,10 +95,29 @@ public class AuthManager : MonoBehaviour
                 // Firebase user has been created.
                 Debug.Log("Signup Successful");
                 FirebaseUser newUser = task.Result;
-                signupSuccessNotification.OpenNotification();
-                Debug.LogFormat("Firebase user created successfully: {0} ({1})",
-                    newUser.DisplayName, newUser.UserId);
+                if (newUser != null)
+                {
+                    writeNewUser(newUser.UserId,newUser.Email);
+                    signupSuccessNotification.OpenNotification();
+                    Debug.LogFormat("Firebase user created successfully: {0} ({1})",
+                        newUser.DisplayName, newUser.UserId);
+                }
             });
+    }
+    
+    public class User {
+        public string email;
+
+        public User(string email) {
+            this.email = email;
+        }
+    }
+    
+    private void writeNewUser(string userId, string email) {
+        DatabaseReference mDatabaseRef = FirebaseDatabase.DefaultInstance.RootReference;
+        User user = new User(email);
+        string json = JsonUtility.ToJson(user);
+        mDatabaseRef.Child("users").Child(userId).SetRawJsonValueAsync(json);
     }
     
     public void OnClickLogout()
