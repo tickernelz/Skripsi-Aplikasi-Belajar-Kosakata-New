@@ -2,12 +2,14 @@ using System;
 using Firebase.Auth;
 using Firebase.Database;
 using Firebase.Extensions;
+using Michsky.UI.ModernUIPack;
 using TMPro;
 using UnityEngine;
 
 public class InputNama : MonoBehaviour
 {
     private string nama, sekolah;
+    public NotificationManager warningEmptyField;
     public GameObject namaObj, sekolahObj;
 
     private void writeDataUser(string userId, string nama, string sekolah)
@@ -47,13 +49,19 @@ public class InputNama : MonoBehaviour
     {
         FirebaseAuth auth = FirebaseAuth.DefaultInstance;
         FirebaseUser user = auth.CurrentUser;
-        if (namaObj != null && sekolahObj != null)
+        string getNama = namaObj.GetComponent<TMP_InputField>().text;
+        string getSekolah = sekolahObj.GetComponent<TMP_InputField>().text;
+        if (getNama != "" && getSekolah != "")
         {
             nama = namaObj.GetComponent<TMP_InputField>().text;
             sekolah = sekolahObj.GetComponent<TMP_InputField>().text;
             PlayerPrefs.SetString("nama", nama);
             PlayerPrefs.SetString("sekolah", sekolah);
             writeDataUser(user.UserId, nama, sekolah);
+        }
+        else
+        {
+            warningEmptyField.OpenNotification();
         }
     }
 
