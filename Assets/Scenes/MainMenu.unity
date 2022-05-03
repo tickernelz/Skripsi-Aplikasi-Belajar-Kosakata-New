@@ -1726,7 +1726,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7780369351547006645}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
-        m_MethodName: ChangeScene
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2297,7 +2297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2305389640970308631, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1049.2136
       objectReference: {fileID: 0}
     - target: {fileID: 2305389640970308631, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2313,7 +2313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2305389641005764003, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 786
       objectReference: {fileID: 0}
     - target: {fileID: 2305389641005764003, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2321,7 +2321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2305389641005764003, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 413
       objectReference: {fileID: 0}
     - target: {fileID: 2305389641005764003, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3557,7 +3557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2305389640970308631, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1049.2136
       objectReference: {fileID: 0}
     - target: {fileID: 2305389640970308631, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3573,7 +3573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2305389641005764003, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 786
       objectReference: {fileID: 0}
     - target: {fileID: 2305389641005764003, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_SizeDelta.y
@@ -3581,7 +3581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2305389641005764003, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 413
       objectReference: {fileID: 0}
     - target: {fileID: 2305389641005764003, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3914,7 +3914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5781282317502468910, guid: 52d9bf8af9e6e3448ad98b6fae3684b8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1049.2136
       objectReference: {fileID: 0}
     - target: {fileID: 5781282317502468910, guid: 52d9bf8af9e6e3448ad98b6fae3684b8, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4070,7 +4070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5781282318917693038, guid: 52d9bf8af9e6e3448ad98b6fae3684b8, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 786
       objectReference: {fileID: 0}
     - target: {fileID: 5781282318917693038, guid: 52d9bf8af9e6e3448ad98b6fae3684b8, type: 3}
       propertyPath: m_SizeDelta.y
@@ -4078,7 +4078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5781282318917693038, guid: 52d9bf8af9e6e3448ad98b6fae3684b8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 413
       objectReference: {fileID: 0}
     - target: {fileID: 5781282318917693038, guid: 52d9bf8af9e6e3448ad98b6fae3684b8, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4226,6 +4226,10 @@ PrefabInstance:
       propertyPath: sceneName
       value: InputNama
       objectReference: {fileID: 0}
+    - target: {fileID: 3970273260976170722, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
+      propertyPath: signUpWindow
+      value: 
+      objectReference: {fileID: 1467440210}
     - target: {fileID: 7780369350185079062, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
       propertyPath: m_Alpha
       value: 0
