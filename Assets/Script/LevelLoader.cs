@@ -1,5 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
+using Firebase.Auth;
+using Michsky.UI.ModernUIPack;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +10,21 @@ public class LevelLoader : MonoBehaviour
     public float volume;
     public Animator transition;
     public float transitionTime;
+    public ModalWindowManager signUpWindow;
+    
+    public void StartGame()
+    {
+        FirebaseAuth auth = FirebaseAuth.DefaultInstance;
+        FirebaseUser user = auth.CurrentUser;
+        if (user != null)
+        {
+            StartCoroutine(LoadLevel());
+        }
+        else
+        {
+            signUpWindow.OpenWindow();
+        }
+    }
     public void ChangeScene()
     {
         StartCoroutine(LoadLevel());

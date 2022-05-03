@@ -1,31 +1,64 @@
-using System.Collections;
-using System.Collections.Generic;
-using RTLTMPro;
+using System;
+using Firebase.Auth;
+using Firebase.Database;
+using Firebase.Extensions;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class InputNama : MonoBehaviour
 {
     private string nama, sekolah;
-    private GameObject nama_obj, sekolah_obj;
-    
-    public void SaveInput()
+    public GameObject namaObj, sekolahObj;
+
+    private void writeDataUser(string userId, string nama, string sekolah)
     {
-        nama_obj = GameObject.Find("Field/Nama");
-        if (nama_obj != null)
+        DatabaseReference mDatabaseRef = FirebaseDatabase.DefaultInstance.RootReference;
+        mDatabaseRef.Child("users").Child(userId).Child("nama").SetValueAsync(nama);
+        mDatabaseRef.Child("users").Child(userId).Child("sekolah").SetValueAsync(sekolah);
+    }
+
+    public void Update()
+    {
+        FirebaseAuth auth = FirebaseAuth.DefaultInstance;
+        FirebaseUser user = auth.CurrentUser;
+        if (user != null)
         {
-            nama = nama_obj.GetComponent<TMP_InputField>().text;
-            PlayerPrefs.SetString("nama", nama);
-        }
-        sekolah_obj = GameObject.Find("Field/Sekolah");
-        if (sekolah_obj != null)
-        {
-            sekolah = sekolah_obj.GetComponent<TMP_InputField>().text;
-            PlayerPrefs.SetString("sekolah", sekolah);
+            FirebaseDatabase.DefaultInstance.GetReference("users").GetValueAsync().ContinueWithOnMainThread(task =>
+            {
+                DataSnapshot snapshot = task.Result;
+                nama = snapshot.Child(user.UserId).Child("nama").Value.ToString();
+                sekolah = snapshot.Child(user.UserId).Child("sekolah").Value.ToString();
+            });
+            if (namaObj.GetComponent<TMP_InputField>().text == "" &&
+                namaObj.GetComponent<TMP_InputField>().isFocused != true)
+            {
+                namaObj.GetComponent<TMP_InputField>().text = nama;
+            }
+
+            if (sekolahObj.GetComponent<TMP_InputField>().text == "" &&
+                sekolahObj.GetComponent<TMP_InputField>().isFocused != true)
+            {
+                sekolahObj.GetComponent<TMP_InputField>().text = sekolah;
+            }
         }
     }
-    public void Exit() {
+
+    public void SaveInput()
+    {
+        FirebaseAuth auth = FirebaseAuth.DefaultInstance;
+        FirebaseUser user = auth.CurrentUser;
+        if (namaObj != null && sekolahObj != null)
+        {
+            nama = namaObj.GetComponent<TMP_InputField>().text;
+            sekolah = sekolahObj.GetComponent<TMP_InputField>().text;
+            PlayerPrefs.SetString("nama", nama);
+            PlayerPrefs.SetString("sekolah", sekolah);
+            writeDataUser(user.UserId, nama, sekolah);
+        }
+    }
+
+    public void Exit()
+    {
         Application.Quit();
     }
 }
