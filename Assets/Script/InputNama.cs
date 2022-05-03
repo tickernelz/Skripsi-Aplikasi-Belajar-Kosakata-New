@@ -1,24 +1,31 @@
+using Firebase.Auth;
+using Firebase.Database;
 using TMPro;
 using UnityEngine;
 
 public class InputNama : MonoBehaviour
 {
     private string nama, sekolah;
-    private GameObject nama_obj, sekolah_obj;
-    
+    public GameObject namaObj, sekolahObj;
+
+    private void writeDataUser(string userId, string nama, string sekolah)
+    {
+        DatabaseReference mDatabaseRef = FirebaseDatabase.DefaultInstance.RootReference;
+        mDatabaseRef.Child("users").Child(userId).Child("nama").SetValueAsync(nama);
+        mDatabaseRef.Child("users").Child(userId).Child("sekolah").SetValueAsync(sekolah);
+    }
+
     public void SaveInput()
     {
-        nama_obj = GameObject.Find("Field/Nama");
-        if (nama_obj != null)
+        FirebaseAuth auth = FirebaseAuth.DefaultInstance;
+        FirebaseUser user = auth.CurrentUser;
+        if (namaObj != null && sekolahObj != null)
         {
-            nama = nama_obj.GetComponent<TMP_InputField>().text;
+            nama = namaObj.GetComponent<TMP_InputField>().text;
+            sekolah = sekolahObj.GetComponent<TMP_InputField>().text;
             PlayerPrefs.SetString("nama", nama);
-        }
-        sekolah_obj = GameObject.Find("Field/Sekolah");
-        if (sekolah_obj != null)
-        {
-            sekolah = sekolah_obj.GetComponent<TMP_InputField>().text;
             PlayerPrefs.SetString("sekolah", sekolah);
+            writeDataUser(user.UserId, nama, sekolah);
         }
     }
     public void Exit() {
