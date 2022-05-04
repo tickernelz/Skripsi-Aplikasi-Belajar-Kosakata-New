@@ -497,6 +497,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7b12de0d548ca8c189077dc956707a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &202197443 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7780369349957486269, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
+  m_PrefabInstance: {fileID: 202197441}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &238511123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,7 +1530,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 615135701}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1734991512}
+        m_TargetAssemblyTypeName: SceneSelector, Assembly-CSharp
+        m_MethodName: NextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &615135701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2371,6 +2388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1734991511}
+  - component: {fileID: 1734991512}
   m_Layer: 5
   m_Name: Bab 1
   m_TagString: Untagged
@@ -2401,6 +2419,22 @@ RectTransform:
   m_AnchoredPosition: {x: 400, y: 250}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1734991512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734991510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8854cdd9d69c4102bab004ec80235aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: BelajarBab1
+  volumeNextScene: 0.1
+  transition: {fileID: 202197443}
+  transitionTime: 1
 --- !u!1 &1738253334
 GameObject:
   m_ObjectHideFlags: 0

@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Belajar.unity
     guid: caa250725e3bec2579c1976cdcb892e7
+  - enabled: 1
+    path: Assets/Scenes/BelajarBab1.unity
+    guid: 687ca80d0b2e49d829ebb4ef18ad36f5
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 1d94f9f73ef4bc2cca77edb6ee5447b5, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 265394031cffe8ee68e59af191adcc76, type: 2}
