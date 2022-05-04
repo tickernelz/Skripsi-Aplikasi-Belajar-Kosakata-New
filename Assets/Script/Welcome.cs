@@ -9,12 +9,8 @@ using UnityEngine;
 public class Welcome : MonoBehaviour
 {
     public GameObject namaObj, sekolahObj;
+    public float timeLeft = 7.0f;
     private string nama, sekolah;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     public void Update()
@@ -31,6 +27,12 @@ public class Welcome : MonoBehaviour
             });
             namaObj.GetComponent<TMP_Text>().text = nama;
             sekolahObj.GetComponent<TMP_Text>().text = sekolah;
+        }
+        timeLeft -= Time.deltaTime;
+        if(timeLeft < 0)
+        {
+            LevelLoader levelLoader = GameObject.Find("LevelLoader").GetComponent<LevelLoader>();
+            levelLoader.NextScene();
         }
     }
 }
