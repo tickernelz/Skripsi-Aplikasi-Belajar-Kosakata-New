@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    public string sceneName;
-    public float volume;
+    public string nextScene, previousScene;
+    public float volumeNextScene, volumePreviousScene;
     public Animator transition;
     public float transitionTime;
     public ModalWindowManager signUpWindow;
@@ -18,19 +18,24 @@ public class LevelLoader : MonoBehaviour
         FirebaseUser user = auth.CurrentUser;
         if (user != null)
         {
-            StartCoroutine(LoadLevel());
+            StartCoroutine(LoadLevel(nextScene, volumeNextScene));
         }
         else
         {
             signUpWindow.OpenWindow();
         }
     }
-    public void ChangeScene()
+    public void NextScene()
     {
-        StartCoroutine(LoadLevel());
+        StartCoroutine(LoadLevel(nextScene, volumeNextScene));
+    }
+    
+    public void PreviousScene()
+    {
+        StartCoroutine(LoadLevel(previousScene, volumePreviousScene));
     }
 
-    IEnumerator LoadLevel()
+    IEnumerator LoadLevel(string sceneName, float volume)
     {
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);

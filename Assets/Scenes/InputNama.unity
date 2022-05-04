@@ -489,8 +489,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3970273260976170722, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
+      propertyPath: nextScene
+      value: Welcome
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970273260976170722, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
       propertyPath: sceneName
       value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970273260976170722, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
+      propertyPath: previousScene
+      value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970273260976170722, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
+      propertyPath: volumeNextScene
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970273260976170722, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
+      propertyPath: volumePreviousScene
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7780369350185079062, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
       propertyPath: m_Alpha
@@ -908,6 +924,18 @@ MonoBehaviour:
       - m_Target: {fileID: 673045891}
         m_TargetAssemblyTypeName: InputNama, Assembly-CSharp
         m_MethodName: SaveInput
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 202197442}
+        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+        m_MethodName: NextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2693,7 +2721,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 202197442}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
-        m_MethodName: ChangeScene
+        m_MethodName: PreviousScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

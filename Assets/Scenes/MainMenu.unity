@@ -1493,9 +1493,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 0}
-  volume: 100
-  soundon: {fileID: 0}
-  soundoff: {fileID: 0}
+  volume: 1
+  soundOn: {fileID: 342602728}
+  soundOff: {fileID: 297912222}
 --- !u!82 &848010323
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4223,6 +4223,10 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3970273260976170722, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
+      propertyPath: nextScene
+      value: InputNama
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970273260976170722, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
       propertyPath: sceneName
       value: InputNama
       objectReference: {fileID: 0}
@@ -4230,6 +4234,10 @@ PrefabInstance:
       propertyPath: signUpWindow
       value: 
       objectReference: {fileID: 1467440210}
+    - target: {fileID: 3970273260976170722, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
+      propertyPath: volumeNextScene
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7780369350185079062, guid: f3ef77bffafc671fca3ec8a41e10f374, type: 3}
       propertyPath: m_Alpha
       value: 0
