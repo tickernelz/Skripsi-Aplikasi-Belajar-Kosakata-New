@@ -9812,7 +9812,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\uFE8D\uFEF7\u0652\u064F\uFEB3\u0652\uFEAE\u064E\uFE93\u064F\n\uFE8D\uFEDF\uFE98\uFC60\uFEAA\u0652\uFEAD\u0650\uFBFE\u0652\uFE90\u064F
-    \uFE8D\uFEF7\u0652\u064E\uFEED\uFC60\uFEDD"
+    \uFE8D\uFEDF\uFE9C\uFC60\uFE8E\uFEE7\u0650\uFBFD"
   m_isRightToLeft: 1
   m_fontAsset: {fileID: 11400000, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_sharedMaterial: {fileID: -6949820610600499109, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
@@ -9884,7 +9884,7 @@ MonoBehaviour:
   preserveNumbers: 0
   farsi: 1
   originalText: "\u0627\u0644\u0652\u0623\u064F\u0633\u0652\u0631\u064E\u0629\u064F\n\u0627\u0644\u062A\u0651\u064E\u062F\u0652\u0631\u0650\u064A\u0652\u0628\u064F
-    \u0627\u0644\u0652\u0623\u064E\u0648\u0651\u064E\u0644"
+    \u0627\u0644\u062B\u0651\u064E\u0627\u0646\u0650\u064A"
   fixTags: 1
   forceFix: 0
 --- !u!222 &1422641159
@@ -15499,7 +15499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2083794154
 RectTransform:
   m_ObjectHideFlags: 0
