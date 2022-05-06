@@ -91,13 +91,33 @@ public class LatihanNilai : MonoBehaviour
             }
         }
     }
-    
-    private void WriteDataUser(string userId, float nilai)
+
+    IEnumerator WriteDataUser(string userId, float nilai)
     {
-        DatabaseReference mDatabaseRef = FirebaseDatabase.DefaultInstance.RootReference;
-        mDatabaseRef.Child("users").Child(userId).Child(namaNilai).SetValueAsync(nilai);
+        DatabaseReference DBreference = FirebaseDatabase.DefaultInstance.RootReference;
+        DBreference.Child("users").Child(userId).Child(namaNilai).SetValueAsync(nilai);
+        var dbTask = DBreference.Child("users").Child(userId).GetValueAsync();
+
+        yield return new WaitUntil(predicate: () => dbTask.IsCompleted);
+
+        if (dbTask.Exception != null)
+        {
+            Debug.LogWarning(message: $"Failed to register task with {dbTask.Exception}");
+        }
+        else
+        {
+            //Data has been retrieved
+            DataSnapshot snapshot = dbTask.Result;
+
+            float skorBab1 = (float.Parse(snapshot.Child("Latihan1Bab1").Value.ToString()) +
+                              float.Parse(snapshot.Child("Latihan2Bab1").Value.ToString())) / 2;
+            float skorBab2 = (float.Parse(snapshot.Child("Latihan1Bab2").Value.ToString()) +
+                              float.Parse(snapshot.Child("Latihan2Bab2").Value.ToString())) / 2;
+            float totalSkor = (skorBab1 + skorBab2) / 2;
+            DBreference.Child("users").Child(userId).Child("TotalSkor").SetValueAsync(totalSkor);
+        }
     }
-    
+
     IEnumerator LanjutSoal()
     {
         _stepsSoal = PlayerPrefs.GetInt("StepsSoal");
@@ -107,7 +127,7 @@ public class LatihanNilai : MonoBehaviour
             FirebaseUser user = auth.CurrentUser;
             _nilai = PlayerPrefs.GetFloat(namaNilai);
             nilaiObject.GetComponent<TMP_Text>().text = _nilai.ToString();
-            WriteDataUser(user.UserId, _nilai);
+            StartCoroutine(WriteDataUser(user.UserId, _nilai));
             skorObject.SetActive(true);
             _selesai = true;
             yield return this;

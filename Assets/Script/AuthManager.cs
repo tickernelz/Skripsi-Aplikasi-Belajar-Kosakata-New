@@ -118,6 +118,13 @@ public class AuthManager : MonoBehaviour
         User user = new User(email);
         string json = JsonUtility.ToJson(user);
         mDatabaseRef.Child("users").Child(userId).SetRawJsonValueAsync(json);
+        mDatabaseRef.Child("users").Child(userId).Child("nama").SetValueAsync("");
+        mDatabaseRef.Child("users").Child(userId).Child("sekolah").SetValueAsync("");
+        mDatabaseRef.Child("users").Child(userId).Child("Latihan1Bab1").SetValueAsync(0);
+        mDatabaseRef.Child("users").Child(userId).Child("Latihan2Bab1").SetValueAsync(0);
+        mDatabaseRef.Child("users").Child(userId).Child("Latihan1Bab2").SetValueAsync(0);
+        mDatabaseRef.Child("users").Child(userId).Child("Latihan2Bab2").SetValueAsync(0);
+        mDatabaseRef.Child("users").Child(userId).Child("TotalSkor").SetValueAsync(0);
     }
     
     public void OnClickLogout()
