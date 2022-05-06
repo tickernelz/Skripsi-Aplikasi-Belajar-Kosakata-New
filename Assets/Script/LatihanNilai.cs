@@ -11,9 +11,10 @@ using UnityEngine.UI;
 public class LatihanNilai : MonoBehaviour
 {
     public string namaNilai;
-    public float timeLeft = 4.0f;
+    public bool timer;
+    public float timeLeft = 4.0f, detikTimer = 20.0f;
     public NotificationManager salahNotification, benarNotification;
-    public GameObject skorObject, nilaiObject;
+    public GameObject skorObject, nilaiObject, timerObject;
     public GameObject[] soal;
     private int _salahCek, _stepsSoal;
     private float _nilai, _skorSoal;
@@ -29,6 +30,16 @@ public class LatihanNilai : MonoBehaviour
 
     private void Update()
     {
+        if (timer && !_selesai)
+        {
+            detikTimer -= Time.deltaTime;
+            timerObject.GetComponent<TMP_Text>().text = detikTimer.ToString("00");
+            if(detikTimer < 0)
+            {
+                StartCoroutine(LanjutSoal());
+                detikTimer = 20.0f;
+            }
+        }
         if (_selesai)
         {
             timeLeft -= Time.deltaTime;
@@ -63,6 +74,10 @@ public class LatihanNilai : MonoBehaviour
         }
         else
         {
+            if (timer)
+            {
+                StartCoroutine(LanjutSoal());
+            }
             _salahCek = PlayerPrefs.GetInt("SalahCek");
             if (_salahCek == 1)
             {
@@ -105,6 +120,11 @@ public class LatihanNilai : MonoBehaviour
             soal[_stepsSoal].SetActive(true);
             PlayerPrefs.SetInt("SalahCek", 0);
             yield return this;
+        }
+        
+        if (timer)
+        {
+            detikTimer = 20.0f;
         }
     }
 }
