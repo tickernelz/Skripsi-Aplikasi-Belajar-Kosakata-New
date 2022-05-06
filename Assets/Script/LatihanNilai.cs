@@ -1,5 +1,7 @@
 using System;
 using System.Collections;
+using Firebase.Auth;
+using Firebase.Database;
 using Michsky.UI.ModernUIPack;
 using TMPro;
 using Unity.VisualScripting;
@@ -75,13 +77,22 @@ public class LatihanNilai : MonoBehaviour
         }
     }
     
+    private void WriteDataUser(string userId, float nilai)
+    {
+        DatabaseReference mDatabaseRef = FirebaseDatabase.DefaultInstance.RootReference;
+        mDatabaseRef.Child("users").Child(userId).Child(namaNilai).SetValueAsync(nilai);
+    }
+    
     IEnumerator LanjutSoal()
     {
         _stepsSoal = PlayerPrefs.GetInt("StepsSoal");
         if (_stepsSoal == soal.Length - 1)
         {
+            FirebaseAuth auth = FirebaseAuth.DefaultInstance;
+            FirebaseUser user = auth.CurrentUser;
             _nilai = PlayerPrefs.GetFloat(namaNilai);
             nilaiObject.GetComponent<TMP_Text>().text = _nilai.ToString();
+            WriteDataUser(user.UserId, _nilai);
             skorObject.SetActive(true);
             _selesai = true;
             yield return this;
