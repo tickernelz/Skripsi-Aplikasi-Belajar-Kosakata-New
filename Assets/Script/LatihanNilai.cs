@@ -8,17 +8,18 @@ using UnityEngine.UI;
 
 public class LatihanNilai : MonoBehaviour
 {
+    public string namaNilai;
+    public float timeLeft = 4.0f;
+    public NotificationManager salahNotification, benarNotification;
     public GameObject skorObject, nilaiObject;
     public GameObject[] soal;
-    public NotificationManager salahNotification, benarNotification;
-    public float timeLeft = 4.0f;
     private int _salahCek, _stepsSoal;
     private float _nilai, _skorSoal;
     private bool benar, _selesai;
 
     private void Start()
     {
-        PlayerPrefs.SetInt("NilaiBab1Latihan1", 0);
+        PlayerPrefs.SetFloat(namaNilai, 0);
         PlayerPrefs.SetInt("SalahCek", 0);
         PlayerPrefs.SetInt("StepsSoal", 0);
         _skorSoal = 100f / soal.Length;
@@ -53,8 +54,8 @@ public class LatihanNilai : MonoBehaviour
     {
         if (benar)
         {
-            _nilai = PlayerPrefs.GetFloat("NilaiBab1Latihan1") + _skorSoal;
-            PlayerPrefs.SetFloat("NilaiBab1Latihan1", _nilai);
+            _nilai = PlayerPrefs.GetFloat(namaNilai) + _skorSoal;
+            PlayerPrefs.SetFloat(namaNilai, _nilai);
             benarNotification.OpenNotification();
             StartCoroutine(LanjutSoal());
         }
@@ -79,7 +80,7 @@ public class LatihanNilai : MonoBehaviour
         _stepsSoal = PlayerPrefs.GetInt("StepsSoal");
         if (_stepsSoal == soal.Length - 1)
         {
-            _nilai = PlayerPrefs.GetFloat("NilaiBab1Latihan1");
+            _nilai = PlayerPrefs.GetFloat(namaNilai);
             nilaiObject.GetComponent<TMP_Text>().text = _nilai.ToString();
             skorObject.SetActive(true);
             _selesai = true;

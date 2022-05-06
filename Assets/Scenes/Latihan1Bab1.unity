@@ -2310,6 +2310,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dfc1bb3eee1f80249e4797f6312c029, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  namaNilai: Latihan1Bab1
+  timeLeft: 4
+  salahNotification: {fileID: 184517059}
+  benarNotification: {fileID: 1785006101}
   skorObject: {fileID: 432151141}
   nilaiObject: {fileID: 664542606}
   soal:
@@ -2323,9 +2327,6 @@ MonoBehaviour:
   - {fileID: 1319886472}
   - {fileID: 1637887914}
   - {fileID: 30030996}
-  salahNotification: {fileID: 184517059}
-  benarNotification: {fileID: 1785006101}
-  timeLeft: 4
 --- !u!1001 &727555232
 PrefabInstance:
   m_ObjectHideFlags: 0
