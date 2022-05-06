@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Latihan1Bab1.unity
     guid: 8342082d505c5dd189604314368bb0b7
+  - enabled: 1
+    path: Assets/Scenes/Latihan2Bab1.unity
+    guid: 58cfe0c8b4b5edb5bb78bd07a7688e32
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 1d94f9f73ef4bc2cca77edb6ee5447b5, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 265394031cffe8ee68e59af191adcc76, type: 2}

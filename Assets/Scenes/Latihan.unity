@@ -1853,6 +1853,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8372382302136844638, guid: 26808df69479ced6aa78e9a072282eb1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372382302136844638, guid: 26808df69479ced6aa78e9a072282eb1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372382302136844638, guid: 26808df69479ced6aa78e9a072282eb1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8372382301092717693}
+    - target: {fileID: 8372382302136844638, guid: 26808df69479ced6aa78e9a072282eb1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372382302136844638, guid: 26808df69479ced6aa78e9a072282eb1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372382302136844638, guid: 26808df69479ced6aa78e9a072282eb1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneSelector, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372382302136844638, guid: 26808df69479ced6aa78e9a072282eb1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8372382302680906478, guid: 26808df69479ced6aa78e9a072282eb1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1961,6 +1989,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: Latihan1Bab1
+  volumeNextScene: 0.5
+  transition: {fileID: 202197443}
+  transitionTime: 1
+--- !u!1 &8372382301092717692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8372382302136844636, guid: 26808df69479ced6aa78e9a072282eb1, type: 3}
+  m_PrefabInstance: {fileID: 8372382301092717689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8372382301092717693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8372382301092717692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8854cdd9d69c4102bab004ec80235aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: Latihan2Bab1
   volumeNextScene: 0.5
   transition: {fileID: 202197443}
   transitionTime: 1
