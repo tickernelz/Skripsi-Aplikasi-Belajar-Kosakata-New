@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Michsky.UI.ModernUIPack;
 using UnityEngine;
 
 public class KosakataController : MonoBehaviour
 {
     public GameObject[] Kosakata;
+    public ModalWindowManager modalLatihan;
+    public GameObject tombolPrev;
     private int steps;
 
     public void Start()
@@ -12,7 +15,20 @@ public class KosakataController : MonoBehaviour
         PlayerPrefs.SetInt("steps", 0);
     }
 
-    public void Next()
+    public void Update()
+    {
+        steps = PlayerPrefs.GetInt("steps");
+        if (steps == 0)
+        {
+            tombolPrev.SetActive(false);
+        }
+        else
+        {
+            tombolPrev.SetActive(true);
+        }
+    }
+
+    public void Next(GameObject tombol)
     {
         steps = PlayerPrefs.GetInt("steps");
         if (steps < Kosakata.Length - 1)
@@ -24,10 +40,7 @@ public class KosakataController : MonoBehaviour
         }
         else
         {
-            Kosakata[steps].SetActive(false);
-            steps = 0;
-            PlayerPrefs.SetInt("steps", steps);
-            Kosakata[steps].SetActive(true);
+            modalLatihan.OpenWindow();
         }
     }
     
@@ -38,13 +51,6 @@ public class KosakataController : MonoBehaviour
         {
             Kosakata[steps].SetActive(false);
             steps--;
-            PlayerPrefs.SetInt("steps", steps);
-            Kosakata[steps].SetActive(true);
-        }
-        else
-        {
-            Kosakata[steps].SetActive(false);
-            steps = Kosakata.Length - 1;
             PlayerPrefs.SetInt("steps", steps);
             Kosakata[steps].SetActive(true);
         }

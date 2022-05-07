@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scoreboard.unity
     guid: c107b0ec9ecc3774ba9dcda6fec558e7
   - enabled: 1
+    path: Assets/Scenes/EditProfile.unity
+    guid: def69131cb09e1b21a5169b20bcf3f73
+  - enabled: 1
     path: Assets/Scenes/InputNama.unity
     guid: dd9548a514f923d54bdb0ff53523cdaf
   - enabled: 1
