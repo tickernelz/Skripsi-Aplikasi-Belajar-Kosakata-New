@@ -132,7 +132,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 19364632}
-  - component: {fileID: 19364637}
   - component: {fileID: 19364636}
   - component: {fileID: 19364635}
   - component: {fileID: 19364634}
@@ -176,7 +175,6 @@ MonoBehaviour:
   m_Script: {fileID: -7804636, guid: 9f4d970ec8b6bb24986fa5de60a66b90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inChildren: 1
 --- !u!114 &19364634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,40 +225,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &19364637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19364631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1157170247, guid: 9f4d970ec8b6bb24986fa5de60a66b90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openStateChange:
-    audioClip: {fileID: 0}
-    channel: 0
-    volume: 1
-    animation: 
-    maxWaitTime: 1
-    generalWaitTime: 0
-    onChange:
-      m_PersistentCalls:
-        m_Calls: []
-  closeStateChange:
-    audioClip: {fileID: 0}
-    channel: 0
-    volume: 1
-    animation: 
-    maxWaitTime: 1
-    generalWaitTime: 0
-    onChange:
-      m_PersistentCalls:
-        m_Calls: []
-  animationOffset: {x: 0, y: 0, z: 0}
-  scaleFactor: {x: 1, y: 1, z: 1}
 --- !u!1 &244819621
 GameObject:
   m_ObjectHideFlags: 0
@@ -2280,7 +2244,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 860884f74e203dd48a30ab1bae5a2b61, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 85d9ed3a273ef3324b8208f88de868b8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2563,7 +2527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2305389640970308631, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1035.2844
+      value: 1030.4624
       objectReference: {fileID: 0}
     - target: {fileID: 2305389640970308631, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3913,7 +3877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2305389640970308631, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1035.2844
+      value: 1030.4624
       objectReference: {fileID: 0}
     - target: {fileID: 2305389640970308631, guid: e5cd08fbfdfbaeb268974209bb5936fb, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4270,7 +4234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5781282317502468910, guid: 52d9bf8af9e6e3448ad98b6fae3684b8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1035.2844
+      value: 1030.4624
       objectReference: {fileID: 0}
     - target: {fileID: 5781282317502468910, guid: 52d9bf8af9e6e3448ad98b6fae3684b8, type: 3}
       propertyPath: m_AnchoredPosition.y
