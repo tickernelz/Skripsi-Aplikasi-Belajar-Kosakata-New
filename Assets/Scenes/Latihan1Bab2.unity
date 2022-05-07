@@ -2199,7 +2199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1909197820387587885, guid: b09b422759ed3fababece2e8418e338f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Benar
+      value: Salah
       objectReference: {fileID: 0}
     - target: {fileID: 1909197820387587885, guid: b09b422759ed3fababece2e8418e338f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2251,7 +2251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1909197820618143733, guid: b09b422759ed3fababece2e8418e338f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Salah
+      value: Benar
       objectReference: {fileID: 0}
     - target: {fileID: 1909197820618143733, guid: b09b422759ed3fababece2e8418e338f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
