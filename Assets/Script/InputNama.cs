@@ -1,4 +1,3 @@
-using System;
 using Firebase.Auth;
 using Firebase.Database;
 using Firebase.Extensions;
@@ -9,14 +8,16 @@ using UnityEngine;
 public class InputNama : MonoBehaviour
 {
     private string nama, sekolah;
-    public NotificationManager warningEmptyField;
+    public NotificationManager warningEmptyField, successNotification;
     public GameObject namaObj, sekolahObj;
+    public bool profileScene;
 
     private void writeDataUser(string userId, string nama, string sekolah)
     {
         DatabaseReference mDatabaseRef = FirebaseDatabase.DefaultInstance.RootReference;
         mDatabaseRef.Child("users").Child(userId).Child("nama").SetValueAsync(nama);
         mDatabaseRef.Child("users").Child(userId).Child("sekolah").SetValueAsync(sekolah);
+        if (profileScene) successNotification.OpenNotification();
     }
 
     public void Update()

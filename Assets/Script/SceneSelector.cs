@@ -10,13 +10,27 @@ public class SceneSelector : MonoBehaviour
     public float volumeNextScene = 0.5f;
     public Animator transition;
     public float transitionTime = 1f;
+    public bool profileScene;
+    public ModalWindowManager signUpWindow;
     
     public void NextScene()
     {
-        StartCoroutine(LoadLevel(nextScene, volumeNextScene));
+        if (profileScene)
+        {
+            var auth = FirebaseAuth.DefaultInstance;
+            var user = auth.CurrentUser;
+            if (user != null)
+                StartCoroutine(LoadLevel(nextScene, volumeNextScene));
+            else
+                signUpWindow.OpenWindow();
+        }
+        else
+        {
+            StartCoroutine(LoadLevel(nextScene, volumeNextScene));
+        }
     }
 
-    IEnumerator LoadLevel(string sceneName, float volume)
+    private IEnumerator LoadLevel(string sceneName, float volume)
     {
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
