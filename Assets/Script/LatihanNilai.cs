@@ -11,7 +11,7 @@ using UnityEngine.UI;
 public class LatihanNilai : MonoBehaviour
 {
     public string namaNilai;
-    public bool timer;
+    public bool timer, latihan2Bab2;
     public float timeLeft = 4.0f, detikTimer = 20.0f;
     public NotificationManager salahNotification, benarNotification;
     public GameObject skorObject, nilaiObject, timerObject;
@@ -74,7 +74,7 @@ public class LatihanNilai : MonoBehaviour
         }
         else
         {
-            if (timer)
+            if (timer || latihan2Bab2)
             {
                 StartCoroutine(LanjutSoal());
             }
