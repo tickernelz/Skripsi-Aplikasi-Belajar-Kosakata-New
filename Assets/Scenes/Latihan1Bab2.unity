@@ -1311,8 +1311,8 @@ MonoBehaviour:
   detikTimer: 20
   salahNotification: {fileID: 184517059}
   benarNotification: {fileID: 1785006101}
-  skorObject: {fileID: 0}
-  nilaiObject: {fileID: 0}
+  skorObject: {fileID: 1867446073}
+  nilaiObject: {fileID: 1867446072}
   timerObject: {fileID: 1018356502}
   soal:
   - {fileID: 1342862915}
@@ -4306,6 +4306,16 @@ PrefabInstance:
 --- !u!224 &1867446071 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3659914841359667970, guid: 085b963cd80afb133b423bd2ab002246, type: 3}
+  m_PrefabInstance: {fileID: 1867446070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1867446072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3659914840449897706, guid: 085b963cd80afb133b423bd2ab002246, type: 3}
+  m_PrefabInstance: {fileID: 1867446070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1867446073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3659914841359667969, guid: 085b963cd80afb133b423bd2ab002246, type: 3}
   m_PrefabInstance: {fileID: 1867446070}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1909197819489226091
