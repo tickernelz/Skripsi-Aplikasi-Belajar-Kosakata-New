@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Music : MonoBehaviour
 {
-    public AudioSource audioSource;
     public float volume;
-    public GameObject soundon, soundoff;
+    private AudioSource audioSource;
+    private GameObject soundon, soundoff;
     private static Music instance = null;
     public static Music Instance
     {
@@ -28,6 +26,7 @@ public class Music : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        PlayerPrefs.SetFloat("volume", 1f);
         volume = PlayerPrefs.GetFloat("volume", 1f);
         audioSource.volume = volume;
         audioSource.Play();
@@ -39,7 +38,7 @@ public class Music : MonoBehaviour
         soundon = GameObject.Find("Sound On");
         soundoff = GameObject.Find("Sound Off");
         volume = PlayerPrefs.GetFloat("volume", 1f);
-        AudioListener.volume = volume;
+        audioSource.volume = volume;
         if (soundoff)
         {
             audioSource.Pause();
