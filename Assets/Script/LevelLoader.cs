@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    public string nextScene, previousScene;
+    public string nextScene, previousScene, homeScene;
     public float volumeNextScene, volumePreviousScene;
     public Animator transition;
     public float transitionTime;
@@ -24,6 +24,10 @@ public class LevelLoader : MonoBehaviour
         {
             signUpWindow.OpenWindow();
         }
+    }
+    public void HomeScene()
+    {
+        StartCoroutine(LoadLevel(homeScene, 1f));
     }
     public void NextScene()
     {
