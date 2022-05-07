@@ -132,11 +132,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 19364632}
-  - component: {fileID: 19364637}
   - component: {fileID: 19364636}
   - component: {fileID: 19364635}
   - component: {fileID: 19364634}
-  - component: {fileID: 19364633}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -164,19 +162,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &19364633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19364631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -7804636, guid: 9f4d970ec8b6bb24986fa5de60a66b90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inChildren: 1
 --- !u!114 &19364634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,40 +212,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &19364637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19364631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1157170247, guid: 9f4d970ec8b6bb24986fa5de60a66b90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openStateChange:
-    audioClip: {fileID: 0}
-    channel: 0
-    volume: 1
-    animation: 
-    maxWaitTime: 1
-    generalWaitTime: 0
-    onChange:
-      m_PersistentCalls:
-        m_Calls: []
-  closeStateChange:
-    audioClip: {fileID: 0}
-    channel: 0
-    volume: 1
-    animation: 
-    maxWaitTime: 1
-    generalWaitTime: 0
-    onChange:
-      m_PersistentCalls:
-        m_Calls: []
-  animationOffset: {x: 0, y: 0, z: 0}
-  scaleFactor: {x: 1, y: 1, z: 1}
 --- !u!1001 &20352825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -732,7 +683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3442324812088167105, guid: fd506bb3dc2ace12bbfd793a6e845286, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3442324812088167105, guid: fd506bb3dc2ace12bbfd793a6e845286, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1584,11 +1535,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 360646369}
-  - component: {fileID: 360646374}
   - component: {fileID: 360646373}
   - component: {fileID: 360646372}
   - component: {fileID: 360646371}
-  - component: {fileID: 360646370}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -1616,19 +1565,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 2069.6294, y: 1001.9187}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &360646370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360646368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -7804636, guid: 9f4d970ec8b6bb24986fa5de60a66b90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inChildren: 1
 --- !u!114 &360646371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1679,40 +1615,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &360646374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360646368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1157170247, guid: 9f4d970ec8b6bb24986fa5de60a66b90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openStateChange:
-    audioClip: {fileID: 0}
-    channel: 0
-    volume: 1
-    animation: 
-    maxWaitTime: 1
-    generalWaitTime: 0
-    onChange:
-      m_PersistentCalls:
-        m_Calls: []
-  closeStateChange:
-    audioClip: {fileID: 0}
-    channel: 0
-    volume: 1
-    animation: 
-    maxWaitTime: 1
-    generalWaitTime: 0
-    onChange:
-      m_PersistentCalls:
-        m_Calls: []
-  animationOffset: {x: 0, y: 0, z: 0}
-  scaleFactor: {x: 1, y: 1, z: 1}
 --- !u!1 &432151141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,7 +1649,7 @@ RectTransform:
   - {fileID: 2021641922}
   - {fileID: 664542607}
   m_Father: {fileID: 673045890}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2287,9 +2189,9 @@ RectTransform:
   - {fileID: 1319886471}
   - {fileID: 1637887913}
   - {fileID: 30030995}
+  - {fileID: 432151142}
   - {fileID: 1785006102}
   - {fileID: 184517060}
-  - {fileID: 432151142}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2311,11 +2213,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   namaNilai: Latihan1Bab1
+  timer: 0
+  latihan2Bab2: 0
   timeLeft: 4
+  detikTimer: 20
   salahNotification: {fileID: 184517059}
   benarNotification: {fileID: 1785006101}
   skorObject: {fileID: 432151141}
   nilaiObject: {fileID: 664542606}
+  timerObject: {fileID: 0}
   soal:
   - {fileID: 353132824}
   - {fileID: 727555234}
@@ -3999,7 +3905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7930446086031984791, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7930446086031984791, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
       propertyPath: m_AnchorMax.x
