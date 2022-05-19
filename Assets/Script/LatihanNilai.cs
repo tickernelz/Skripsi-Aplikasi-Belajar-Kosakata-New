@@ -1,12 +1,9 @@
-using System;
 using System.Collections;
 using Firebase.Auth;
 using Firebase.Database;
 using Michsky.UI.ModernUIPack;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class LatihanNilai : MonoBehaviour
 {
@@ -15,9 +12,9 @@ public class LatihanNilai : MonoBehaviour
     public float timeLeft = 4.0f, detikTimer = 20.0f;
     public NotificationManager salahNotification, benarNotification;
     public GameObject skorObject, nilaiObject, timerObject;
-    public GameObject[] soal;
-    private int _salahCek, _stepsSoal;
+    public GameObject[] soal, rangeNilai;
     private float _nilai, _skorSoal;
+    private int _salahCek, _stepsSoal;
     private bool benar, _selesai;
 
     private void Start()
@@ -34,16 +31,17 @@ public class LatihanNilai : MonoBehaviour
         {
             detikTimer -= Time.deltaTime;
             timerObject.GetComponent<TMP_Text>().text = detikTimer.ToString("00");
-            if(detikTimer < 0)
+            if (detikTimer < 0)
             {
                 StartCoroutine(LanjutSoal());
                 detikTimer = 20.0f;
             }
         }
+
         if (_selesai)
         {
             timeLeft -= Time.deltaTime;
-            if(timeLeft < 0)
+            if (timeLeft < 0)
             {
                 LevelLoader levelLoader = GameObject.Find("LevelLoader").GetComponent<LevelLoader>();
                 levelLoader.PreviousScene();
@@ -56,7 +54,7 @@ public class LatihanNilai : MonoBehaviour
         benar = true;
         CekNilai();
     }
-    
+
     public void Salah()
     {
         benar = false;
@@ -78,6 +76,7 @@ public class LatihanNilai : MonoBehaviour
             {
                 StartCoroutine(LanjutSoal());
             }
+
             _salahCek = PlayerPrefs.GetInt("SalahCek");
             if (_salahCek == 1)
             {
@@ -128,6 +127,36 @@ public class LatihanNilai : MonoBehaviour
             _nilai = PlayerPrefs.GetFloat(namaNilai);
             nilaiObject.GetComponent<TMP_Text>().text = _nilai.ToString();
             StartCoroutine(WriteDataUser(user.UserId, _nilai));
+            if (_nilai >= 90)
+            {
+                rangeNilai[0].SetActive(true);
+            }
+
+            if (_nilai >= 80 && _nilai < 90)
+            {
+                rangeNilai[1].SetActive(true);
+            }
+
+            if (_nilai >= 70 && _nilai < 80)
+            {
+                rangeNilai[2].SetActive(true);
+            }
+
+            if (_nilai >= 50 && _nilai < 70)
+            {
+                rangeNilai[3].SetActive(true);
+            }
+
+            if (_nilai >= 30 && _nilai < 50)
+            {
+                rangeNilai[4].SetActive(true);
+            }
+
+            if (_nilai < 30)
+            {
+                rangeNilai[5].SetActive(true);
+            }
+
             skorObject.SetActive(true);
             _selesai = true;
             yield return this;
@@ -141,7 +170,7 @@ public class LatihanNilai : MonoBehaviour
             PlayerPrefs.SetInt("SalahCek", 0);
             yield return this;
         }
-        
+
         if (timer)
         {
             detikTimer = 20.0f;
