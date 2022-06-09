@@ -1418,6 +1418,7 @@ GameObject:
   - component: {fileID: 673045887}
   - component: {fileID: 673045891}
   - component: {fileID: 673045892}
+  - component: {fileID: 673045893}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1581,6 +1582,14 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!81 &673045893
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673045886}
+  m_Enabled: 1
 --- !u!1001 &681490296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3476,7 +3485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6517613321533800951, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1030.0216
+      value: 1016.2887
       objectReference: {fileID: 0}
     - target: {fileID: 6517613321533800951, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
       propertyPath: m_AnchoredPosition.y
