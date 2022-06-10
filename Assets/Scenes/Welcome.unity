@@ -448,6 +448,7 @@ GameObject:
   - component: {fileID: 673045888}
   - component: {fileID: 673045887}
   - component: {fileID: 673045891}
+  - component: {fileID: 673045892}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -560,6 +561,14 @@ MonoBehaviour:
   namaObj: {fileID: 3351504397847471578}
   sekolahObj: {fileID: 2142514109}
   timeLeft: 7
+--- !u!81 &673045892
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673045886}
+  m_Enabled: 1
 --- !u!1001 &811923937
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Belajar.unity
     guid: caa250725e3bec2579c1976cdcb892e7
   - enabled: 1
-    path: Assets/Scenes/BelajarBab1.unity
+    path: Assets/Scenes/BelajarBab1Rev.unity
     guid: 687ca80d0b2e49d829ebb4ef18ad36f5
   - enabled: 1
     path: Assets/Scenes/BelajarBab2.unity
