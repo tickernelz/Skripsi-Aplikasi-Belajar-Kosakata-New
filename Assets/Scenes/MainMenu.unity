@@ -1702,6 +1702,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922355222}
     m_Modifications:
+    - target: {fileID: 8057483027704170480, guid: b6641daf62c327d4489aa38cb30950e0, type: 3}
+      propertyPath: m_text
+      value: "\uFE8D\uFEDF\uFE98\uFEB4\uFEA0\uFBFF\uFEDE"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057483027704170480, guid: b6641daf62c327d4489aa38cb30950e0, type: 3}
+      propertyPath: originalText
+      value: "\u0627\u0644\u062A\u0633\u062C\u064A\u0644"
+      objectReference: {fileID: 0}
     - target: {fileID: 8057483027758190064, guid: b6641daf62c327d4489aa38cb30950e0, type: 3}
       propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -6930,6 +6938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button Desk
       objectReference: {fileID: 0}
+    - target: {fileID: 583907017783717462, guid: 9b537d755e2d0c24fa7f0ebdb769215f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b537d755e2d0c24fa7f0ebdb769215f, type: 3}
 --- !u!1001 &1887495951802376746
@@ -8869,6 +8881,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 673045890}
     m_Modifications:
+    - target: {fileID: 8057483027704170480, guid: b6641daf62c327d4489aa38cb30950e0, type: 3}
+      propertyPath: m_text
+      value: "\uFE8D\uFEDF\uFE98\uFEB4\uFEA0\uFBFF\uFEDE"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057483027704170480, guid: b6641daf62c327d4489aa38cb30950e0, type: 3}
+      propertyPath: originalText
+      value: "\u0627\u0644\u062A\u0633\u062C\u064A\u0644"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057483027704170480, guid: b6641daf62c327d4489aa38cb30950e0, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8057483027758190064, guid: b6641daf62c327d4489aa38cb30950e0, type: 3}
       propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
