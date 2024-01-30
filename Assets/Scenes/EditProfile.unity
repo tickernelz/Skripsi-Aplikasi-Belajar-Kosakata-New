@@ -194,8 +194,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uFE8D\uFEFB\uFEB3\uFEE2 \uFE8D\uFEDF\uFEDC\uFE8E\uFEE3\uFEDE\n"
-  m_isRightToLeft: 1
+  m_text: Name
+  m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_sharedMaterial: {fileID: -6949820610600499109, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_fontSharedMaterials: []
@@ -227,8 +227,8 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 4
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
   preserveNumbers: 0
   farsi: 1
-  originalText: "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0643\u0627\u0645\u0644\n"
+  originalText: Name
   fixTags: 1
   forceFix: 0
 --- !u!1 &194548523
@@ -510,8 +510,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uFE87\uFEAD\uFEB3\uFEDE"
-  m_isRightToLeft: 1
+  m_text: Send
+  m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_sharedMaterial: {fileID: -6949820610600499109, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_fontSharedMaterials: []
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -581,7 +581,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
   preserveNumbers: 0
   farsi: 1
-  originalText: "\u0625\u0631\u0633\u0644"
+  originalText: Send
   fixTags: 1
   forceFix: 0
 --- !u!1 &266246894
@@ -979,8 +979,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uFE8D\uFEDF\uFEE4\uFEAA\uFEAD\uFEB3\uFE94"
-  m_isRightToLeft: 1
+  m_text: School
+  m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_sharedMaterial: {fileID: -6949820610600499109, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_fontSharedMaterials: []
@@ -1013,8 +1013,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1050,7 +1050,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
   preserveNumbers: 0
   farsi: 1
-  originalText: "\u0627\u0644\u0645\u062F\u0631\u0633\u0629"
+  originalText: School
   fixTags: 1
   forceFix: 0
 --- !u!1 &673045886
@@ -1218,11 +1218,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7930446085607816509, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
       propertyPath: m_text
-      value: "\uFE97\uFEE2 \uFEA3\uFED4\uFEC6 \uFEA3\uFEB4\uFE8E\uFE91\uFEDA \uFE91\uFEE8\uFEA0\uFE8E\uFEA1!"
+      value: Succes to inpur your profil!
       objectReference: {fileID: 0}
     - target: {fileID: 7930446085607816509, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
       propertyPath: originalText
-      value: "\u062A\u0645 \u062D\u0641\u0638 \u062D\u0633\u0627\u0628\u0643 \u0628\u0646\u062C\u0627\u062D!"
+      value: Succes to inpur your profil!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930446085607816509, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7930446086031984790, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
       propertyPath: m_Name
@@ -1319,6 +1323,22 @@ PrefabInstance:
     - target: {fileID: 7930446086031984797, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
       propertyPath: timer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930446086959445846, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
+      propertyPath: m_text
+      value: Succes!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930446086959445846, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930446086959445846, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
+      propertyPath: originalText
+      value: Succes!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930446086959445846, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76ad7887fb51ee68984461a8eafdcf83, type: 3}
@@ -1863,15 +1883,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3442324811741658987, guid: fd506bb3dc2ace12bbfd793a6e845286, type: 3}
       propertyPath: m_text
-      value: "\uFEFB \uFBFE\uFEE4\uFEDC\uFEE6 \uFE83\uFEE5 \uFBFE\uFEDC\uFEEE\uFEE5
-        \uFEA3\uFED8\uFEDE \uFE8D\uFEFB\uFEB3\uFEE2 \uFEED\uFEA3\uFED8\uFEDE \uFE8D\uFEDF\uFEE4\uFEAA\uFEAD\uFEB3\uFE94
-        \uFED3\uFE8E\uFEAD\uFECF\uFBFF\uFEE6"
+      value: Please input your name and school!
       objectReference: {fileID: 0}
     - target: {fileID: 3442324811741658987, guid: fd506bb3dc2ace12bbfd793a6e845286, type: 3}
       propertyPath: originalText
-      value: "\u0644\u0627 \u064A\u0645\u0643\u0646 \u0623\u0646 \u064A\u0643\u0648\u0646
-        \u062D\u0642\u0644 \u0627\u0644\u0627\u0633\u0645 \u0648\u062D\u0642\u0644
-        \u0627\u0644\u0645\u062F\u0631\u0633\u0629 \u0641\u0627\u0631\u063A\u064A\u0646"
+      value: Please input your name and school!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442324811741658987, guid: fd506bb3dc2ace12bbfd793a6e845286, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3442324811741658991, guid: fd506bb3dc2ace12bbfd793a6e845286, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1987,15 +2007,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3442324813091124480, guid: fd506bb3dc2ace12bbfd793a6e845286, type: 3}
       propertyPath: m_text
-      value: "\uFE87\uFEEB\uFE98\uFEE4\uFE8E\uFEE1!"
+      value: Warning!
       objectReference: {fileID: 0}
     - target: {fileID: 3442324813091124480, guid: fd506bb3dc2ace12bbfd793a6e845286, type: 3}
       propertyPath: originalText
-      value: "\u0625\u0647\u062A\u0645\u0627\u0645!"
+      value: Warning!
       objectReference: {fileID: 0}
     - target: {fileID: 3442324813091124480, guid: fd506bb3dc2ace12bbfd793a6e845286, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd506bb3dc2ace12bbfd793a6e845286, type: 3}
@@ -2775,6 +2795,22 @@ PrefabInstance:
     - target: {fileID: 4137692557630714813, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137692557630714815, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 16702ac4796204d41857b301a7c65b0b, type: 3}
+    - target: {fileID: 4137692557630714815, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137692557630714815, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137692557630714815, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
+      propertyPath: m_Color.r
+      value: 0.62352943
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
