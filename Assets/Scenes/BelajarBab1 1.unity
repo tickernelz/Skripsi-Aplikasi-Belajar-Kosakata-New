@@ -146,6 +146,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -382.97693
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.93333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.003921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.05490196
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -161,10 +173,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c02b4542e5c740949a70b7f11ecbe59f, type: 3}
+      objectReference: {fileID: 21300000, guid: 0335d580b05faff47b9bab77430e031c, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata anak pr
+      value: Kosakata play
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -256,11 +268,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFE8D\u0650\uFE91\u0652\uFEE8\u064E\uFE94\u064C"
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 93
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u0627\u0650\u0628\u0652\u0646\u064E\u0629\u064C"
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -302,6 +326,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -383.6028
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.015686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.015686275
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -317,10 +353,18 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bacd29bd045e50f4c89840ec9b1c9775, type: 3}
+      objectReference: {fileID: 21300000, guid: ff615aeba69d17440b205436825956ec, type: 3}
+    - target: {fileID: 8385021969374487171, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1142.356
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969374487171, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata bibi
+      value: Kosakata bowl
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -412,11 +456,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFECB\u064E\uFEE4\uFC60\uFE94\u064C"
+      value: Bowl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 95.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u0639\u064E\u0645\u0651\u064E\u0629\u064C"
+      value: Bowl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -712,7 +768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.827451, g: 0.59607846, b: 0.9607843, a: 1}
+  m_Color: {r: 0.39607844, g: 0.69803923, b: 0.94509804, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -765,6 +821,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -382.97693
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.043137256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09411765
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -780,10 +848,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b9738b632a088d54ab5f082fca711dbd, type: 3}
+      objectReference: {fileID: 21300000, guid: fe6a2622d78f8604792b25fa68039876, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata paman
+      value: Kosakata fork
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -875,11 +943,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFECB\u064E\uFEE2\uFC5E"
+      value: Fork
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 93
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u0639\u064E\u0645\u0651\u064C"
+      value: Fork
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -1126,6 +1206,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -382.9769
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.043137256
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1141,10 +1233,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: af3f80bfb3027464082ec5632629fad7, type: 3}
+      objectReference: {fileID: 21300000, guid: f02531d2cebe0d345b091c0b37f18af8, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata saudara lk
+      value: Kosakata stove
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -1236,11 +1328,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064E\uFEA5\u064C"
+      value: Stove
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 94.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064E\u062E\u064C"
+      value: Stove
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -1277,6 +1381,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -382.049
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.011764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.03529412
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1292,10 +1408,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b02ab9e4075083a4ea3844001d1d8d69, type: 3}
+      objectReference: {fileID: 21300000, guid: 0e75a400efbedfd47a0c26e250f0e73a, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata anak lk
+      value: Kosakata knife
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -1387,11 +1503,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFE8D\u0650\uFE91\u0652\uFEE6\u064C"
+      value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 94.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u0627\u0650\u0628\u0652\u0646\u064C"
+      value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -1419,6 +1547,11 @@ RectTransform:
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 8385021969348482490, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
   m_PrefabInstance: {fileID: 437564239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &578001451 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8385021969348482490, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+  m_PrefabInstance: {fileID: 2124539589}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &673045886
 GameObject:
@@ -1533,6 +1666,7 @@ RectTransform:
   - {fileID: 1462931529}
   - {fileID: 690836464}
   - {fileID: 1971678042}
+  - {fileID: 1930848927}
   - {fileID: 8385021970661564669}
   - {fileID: 59060680}
   - {fileID: 479229118}
@@ -1626,6 +1760,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -383.484
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.07058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.05882353
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1641,10 +1787,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f1a2dec6b47d21042b9576e837828015, type: 3}
+      objectReference: {fileID: 21300000, guid: 2c3f31802fa9c3c419e310eeaa65b44b, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata nenek
+      value: Kosakata family
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -1736,11 +1882,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEAA\uFC60\uFE93\u064C"
+      value: Family
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 97.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u062F\u0651\u064E\u0629\u064C"
+      value: Family
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -1777,6 +1935,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -382.9769
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.003921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.015686275
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1792,10 +1962,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c630c8aa28fbf1b4e992892569619a93, type: 3}
+      objectReference: {fileID: 21300000, guid: 1843075416d453d49bda8e3c2eee3181, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata duduk
+      value: Kosakata bathroom
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -1887,15 +2057,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEE0\u064E\uFEB2\u064E \u2013 \uFBFE\u064E\uFEA0\u0652\uFEE0\u064F\uFEB2\u064F"
+      value: Bathroom
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
-      value: 37.3
+      value: 76.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u0644\u064E\u0633\u064E \u2013 \u064A\u064E\u062C\u0652\u0644\u064F\u0633\u064F"
+      value: Bathroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -2072,6 +2250,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -382.5138
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.972549
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.023529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.03529412
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2087,10 +2277,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f66fdaff7505a5242b2bf1595de8abcb, type: 3}
+      objectReference: {fileID: 21300000, guid: 499d0e6c339bd1543a6d9aa6eaebb91b, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata kakek
+      value: Kosakata stair
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -2182,11 +2372,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEAA\uFC5E"
+      value: Stairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 93.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u062F\u0651\u064C"
+      value: Stairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -2547,6 +2749,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -385.295
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.03137255
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2562,10 +2776,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d4040986265a93240a46d2171547c808, type: 3}
+      objectReference: {fileID: 21300000, guid: 4eaa04d845ca3ac428b33ffdb3426202, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata tidur
+      value: Kosakata bedroom
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -2657,11 +2871,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFEE7\u064E\uFE8E\uFEE1\u064E \u2013 \uFBFE\u064E\uFEE8\u064E\uFE8E\uFEE1\u064F"
+      value: Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 82.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u0646\u064E\u0627\u0645\u064E \u2013 \u064A\u064E\u0646\u064E\u0627\u0645\u064F"
+      value: Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -2767,6 +2993,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -383.02728
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.039215688
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2782,10 +3020,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b367a416908e32b4593840293d39f628, type: 3}
+      objectReference: {fileID: 21300000, guid: 54896746514b26446800d9df1814e12d, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata ibu
+      value: Kosakata cook
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -2877,11 +3115,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064F\uFEE1\uFC5E"
+      value: Cook
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 99.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064F\u0645\u0651\u064C"
+      value: Cook
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -2894,6 +3144,11 @@ RectTransform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
   m_PrefabInstance: {fileID: 1761415802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1930848927 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+  m_PrefabInstance: {fileID: 2124539589}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1967614429
 PrefabInstance:
@@ -2918,6 +3173,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -383.99185
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.047058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2933,10 +3200,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f40f0bb2dfdc54246bcd915f50a7c66d, type: 3}
+      objectReference: {fileID: 21300000, guid: de4f5771d7f57954f9423e4c54adff4b, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata saudara pr
+      value: Kosakata clean
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -3028,15 +3295,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064F\uFEA7\u0652\uFE94\u064C\n"
+      value: Clean
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
-      value: 19.5
+      value: 98
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064F\u062E\u0652\u0629\u064C\n"
+      value: Clean
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -3073,6 +3348,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -382.5138
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.08627451
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3088,10 +3375,10 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4de739a166511534e9a68f4c358cc189, type: 3}
+      objectReference: {fileID: 21300000, guid: a19d5797dd19d0e4895e1caac8ab6a25, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata membaca
+      value: Kosakata garden
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -3183,11 +3470,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: "\uFED7\u064E\uFEAE\u064E\uFE83\u064E - \uFBFE\u064E\uFED8\u0652\uFEAE\u064E\uFE83\u064F"
+      value: Garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 97.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_margin.x
+      value: -13.167984
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: "\u0642\u064E\u0631\u064E\u0623\u064E - \u064A\u064E\u0642\u0652\u0631\u064E\u0623\u064F"
+      value: Garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
@@ -3206,6 +3509,175 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 8385021969348482490, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
   m_PrefabInstance: {fileID: 8385021970222242825}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2124539589
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 673045890}
+    m_Modifications:
+    - target: {fileID: 8385021969028248156, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 366.654
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248156, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 116.544
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248156, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -24.564
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248156, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -382.5138
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.08627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 578001451}
+    - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969348482490, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7821261aa46e0fc49aaa913dfbeef715, type: 3}
+    - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 74aaaab2363886c4c9c04367c577a304, type: 3}
+    - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Name
+      value: Kosakata kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 988
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_text
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 97.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_margin.x
+      value: -13.167984
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: originalText
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
 --- !u!1001 &740854697102608462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3277,6 +3749,18 @@ PrefabInstance:
       propertyPath: m_text
       value: Attention!
       objectReference: {fileID: 0}
+    - target: {fileID: 6517613321344855122, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
+      propertyPath: originalText
+      value: Attention!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517613321344855122, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517613321344855122, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6517613321533800951, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3291,7 +3775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6517613321533800951, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 988.40204
+      value: 998.0451
       objectReference: {fileID: 0}
     - target: {fileID: 6517613321533800951, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3311,7 +3795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6517613321571007700, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 6517613321571007700, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3473,6 +3957,10 @@ PrefabInstance:
       propertyPath: m_isRightToLeft
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6517613322082684365, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6517613322156489672, guid: 3e354040b37d9dc4689931b67a5ae4d1, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3536,7 +4024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1869264545840075306, guid: 9a0d828199c1b334b9cc0175d46bfdbc, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1869264545840075306, guid: 9a0d828199c1b334b9cc0175d46bfdbc, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3649,7 +4137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1877834522160556173, guid: bf3a1f6ed8be4814c8db4fbe4411bf85, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1877834522160556173, guid: bf3a1f6ed8be4814c8db4fbe4411bf85, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3727,6 +4215,10 @@ PrefabInstance:
       propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 673045891}
+    - target: {fileID: 1877834522160556174, guid: bf3a1f6ed8be4814c8db4fbe4411bf85, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Next
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf3a1f6ed8be4814c8db4fbe4411bf85, type: 3}
 --- !u!224 &5781282318113895578 stripped
@@ -3766,7 +4258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7986779608482373349, guid: 4360460278ee9554b8560b9327384cde, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 7986779608482373349, guid: 4360460278ee9554b8560b9327384cde, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3869,6 +4361,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -384
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.11372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969028248158, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248159, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3877,9 +4381,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 52ef998e1b399eb4ab1167c455bc7b61, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata ayah
+      value: Kosakata buy
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -3969,6 +4477,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_text
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontSize
+      value: 97.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: originalText
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
 --- !u!1 &8385021970661564643 stripped
@@ -4012,9 +4540,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 1104847386407844215, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104847386407844215, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104847386407844215, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.08627451
+      objectReference: {fileID: 0}
     - target: {fileID: 1104847386742591503, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
       propertyPath: m_Name
-      value: Kosakata pergi
+      value: Kosakata window
       objectReference: {fileID: 0}
     - target: {fileID: 1104847386742591503, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
       propertyPath: m_IsActive
@@ -4030,7 +4570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1104847386742591505, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1104847386742591505, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4104,5 +4644,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1104847387025776664, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
+      propertyPath: m_text
+      value: Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104847387025776664, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
+      propertyPath: m_fontSize
+      value: 93.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104847387025776664, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
+      propertyPath: originalText
+      value: Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104847387025776664, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865513807307754674, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9495e7fa0ce40bb48a002acaaf9d796d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4b0f63316301c4c5b146d9bb0bda2f3, type: 3}
