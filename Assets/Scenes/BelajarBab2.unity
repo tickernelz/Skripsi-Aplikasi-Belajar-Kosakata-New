@@ -173,7 +173,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4398d4f57da72ee418c101dfdff02e40, type: 3}
+      objectReference: {fileID: 21300000, guid: de0576a8b83949747b38477d3d8540d4, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata drive
@@ -625,7 +625,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6489e9df237aaaa458fc68ef7bee2933, type: 3}
+      objectReference: {fileID: 21300000, guid: 03b07bfc1a5803c4caf465c4cf565f53, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata fishing
@@ -1040,7 +1040,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b08c5e6e4f69d4b4891eabb0f2a72598, type: 3}
+      objectReference: {fileID: 21300000, guid: 9c3939d0df86a934ea92f0d8970980d9, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata swim
@@ -1656,7 +1656,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e6b56298c85be6645ac5ec4ff1dc77c0, type: 3}
+      objectReference: {fileID: 21300000, guid: 13daf861008955549818d7003ba21a6f, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata lake
@@ -1823,7 +1823,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2d107458c1eaa3646b6bf63fb334c7e1, type: 3}
+      objectReference: {fileID: 21300000, guid: bc3230d8931420a468d0c0a7214bc326, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata watch
@@ -2465,7 +2465,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 500486411a616574abe0edf12947338b, type: 3}
+      objectReference: {fileID: 21300000, guid: ffc0224ae341a614fba8648c6e82c9cf, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata beach
@@ -2640,7 +2640,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9642f699633f40f478e767ea39dc08e7, type: 3}
+      objectReference: {fileID: 21300000, guid: 81534d4232401174dab064cb136f187b, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata waterfall
@@ -2959,7 +2959,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c9ab92a856e039840804aa412f2abf63, type: 3}
+      objectReference: {fileID: 21300000, guid: db8f8cff0fa9b9344bc27cc6e58de70b, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata hiking
@@ -3793,7 +3793,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8655c4e06da905247a8883b03bdc4f9b, type: 3}
+      objectReference: {fileID: 21300000, guid: 1ae85624c8f96894c9a5bfe78e8e8870, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata foreigner
@@ -3964,7 +3964,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 057d215eeb140d94f9131f16f65b0ddc, type: 3}
+      objectReference: {fileID: 21300000, guid: 925b160c91059dc46bcab04654a15c5a, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata airport
@@ -4139,7 +4139,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: eef9c6d2d0e7cd84ebd3059ca61b6b80, type: 3}
+      objectReference: {fileID: 21300000, guid: 30a585921aee12047b3e6e3f9007c912, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata diving
@@ -4390,7 +4390,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8c5e3369b1055a846bc587e18db920bf, type: 3}
+      objectReference: {fileID: 21300000, guid: 55505d58419f83946affcde99c402c8a, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata surving
@@ -4629,7 +4629,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 388db1868d38bb54ead54565b5116539, type: 3}
+      objectReference: {fileID: 21300000, guid: 231dd21c5be21e647bd06b42bad33aa5, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata port
@@ -4796,7 +4796,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e5bf9ec6e2c722c44bb462013ebbf5f1, type: 3}
+      objectReference: {fileID: 21300000, guid: 34ad8be5e222d874d8e64e5dc97e387e, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata zoo
@@ -5497,7 +5497,7 @@ PrefabInstance:
     - target: {fileID: 8385021969374487170, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3d5bf9a57dbce8d439875fb442d00264, type: 3}
+      objectReference: {fileID: 21300000, guid: 4512c34f31624a94ebff6725dc271c3a, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
       value: Kosakata feed

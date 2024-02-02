@@ -27,14 +27,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Belajar.unity
     guid: caa250725e3bec2579c1976cdcb892e7
   - enabled: 1
-    path: Assets/Scenes/BelajarBab3.unity
-    guid: 687ca80d0b2e49d829ebb4ef18ad36f5
+    path: Assets/Scenes/BelajarBab1.unity
+    guid: baef9ff2bd3786a43bd4c89d36dc3831
   - enabled: 1
     path: Assets/Scenes/BelajarBab2.unity
-    guid: b573aaea8b7b54fd5b600891951cdca3
+    guid: 7929c2f0d77d1f74c88748d69d36089a
   - enabled: 1
-    path: Assets/Scenes/BelajarBab1Rev 1.unity
-    guid: 239c666413f7f1e48a5e6c34561a4365
+    path: Assets/Scenes/BelajarBab3.unity
+    guid: b573aaea8b7b54fd5b600891951cdca3
   - enabled: 1
     path: Assets/Scenes/Latihan.unity
     guid: 40e6c5df9bf2d9f539f70566b1e9e604

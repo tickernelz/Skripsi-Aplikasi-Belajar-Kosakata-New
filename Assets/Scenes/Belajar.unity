@@ -2174,7 +2174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8854cdd9d69c4102bab004ec80235aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: BelajarBab1Rev 1
+  nextScene: BelajarBab1
   volumeNextScene: 0.1
   transition: {fileID: 202197443}
   transitionTime: 1
