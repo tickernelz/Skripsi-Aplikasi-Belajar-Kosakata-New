@@ -176,7 +176,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: de0576a8b83949747b38477d3d8540d4, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata drive
+      value: Kosakata table
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -268,7 +268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Drive
+      value: Table
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -280,7 +280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Drive
+      value: Table
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -628,7 +628,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 03b07bfc1a5803c4caf465c4cf565f53, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata fishing
+      value: Kosakata write
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -720,7 +720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Fishing
+      value: Write
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -732,7 +732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Fishing
+      value: Write
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -1043,7 +1043,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 9c3939d0df86a934ea92f0d8970980d9, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata swim
+      value: Kosakata uniform
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -1135,7 +1135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Swim
+      value: Uniform
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -1147,7 +1147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Swim
+      value: Uniform
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -1659,7 +1659,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 13daf861008955549818d7003ba21a6f, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata lake
+      value: Kosakata cut
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -1751,7 +1751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Lake
+      value: Cut
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -1763,7 +1763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Lake
+      value: Cut
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -1826,7 +1826,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: bc3230d8931420a468d0c0a7214bc326, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata watch
+      value: Kosakata sing
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -1918,7 +1918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Watch
+      value: Sing
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -1930,7 +1930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Watch
+      value: Sing
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -2424,7 +2424,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8385021969028248156, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 322.13
+      value: 455.326
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248156, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2432,7 +2432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248156, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 3.165
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969028248156, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2468,7 +2468,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ffc0224ae341a614fba8648c6e82c9cf, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata beach
+      value: Kosakata scissors
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -2560,11 +2560,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Beach
+      value: Scissors
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
-      value: 75.95
+      value: 75.45
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontStyle
@@ -2572,7 +2572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Beach
+      value: Scissors
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -2643,7 +2643,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 81534d4232401174dab064cb136f187b, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata waterfall
+      value: Kosakata learn
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -2735,11 +2735,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Waterfall
+      value: Learn
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
-      value: 71
+      value: 79.75
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontStyle
@@ -2747,7 +2747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Waterfall
+      value: Learn
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -2825,7 +2825,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Chapter 2
 
-    Vacation'
+    School'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_sharedMaterial: {fileID: -6949820610600499109, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
@@ -2898,7 +2898,7 @@ MonoBehaviour:
   farsi: 1
   originalText: 'Chapter 2
 
-    Vacation'
+    School'
   fixTags: 1
   forceFix: 0
 --- !u!222 &695921043
@@ -2962,7 +2962,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: db8f8cff0fa9b9344bc27cc6e58de70b, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata hiking
+      value: Kosakata read
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -3054,7 +3054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Hiking
+      value: Read
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -3066,7 +3066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Hiking
+      value: Read
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -3796,7 +3796,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 1ae85624c8f96894c9a5bfe78e8e8870, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata foreigner
+      value: Kosakata markers
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -3888,7 +3888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Foreigner
+      value: Markers
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -3900,7 +3900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Foreigner
+      value: Markers
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -3967,7 +3967,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 925b160c91059dc46bcab04654a15c5a, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata airport
+      value: Kosakata chair
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -4059,7 +4059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Airport
+      value: Chair
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -4071,7 +4071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Airport
+      value: Chair
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -4142,7 +4142,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 30a585921aee12047b3e6e3f9007c912, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata diving
+      value: Kosakata drawer
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -4234,7 +4234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Diving
+      value: Drawer
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -4246,7 +4246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Diving
+      value: Drawer
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -4393,7 +4393,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 55505d58419f83946affcde99c402c8a, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata surving
+      value: Kosakata sit
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -4485,7 +4485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Surving
+      value: Sit
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -4497,7 +4497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Surving
+      value: Sit
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -4632,7 +4632,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 231dd21c5be21e647bd06b42bad33aa5, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata port
+      value: Kosakata cupboard
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -4724,11 +4724,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Port
+      value: Cupboard
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
-      value: 76.55
+      value: 65.6
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontStyle
@@ -4736,7 +4736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Port
+      value: Cupboard
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -4799,7 +4799,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 34ad8be5e222d874d8e64e5dc97e387e, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata zoo
+      value: Kosakata map
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -4891,7 +4891,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Zoo
+      value: Map
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -4903,7 +4903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Zoo
+      value: Map
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
@@ -5500,7 +5500,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 4512c34f31624a94ebff6725dc271c3a, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata feed
+      value: Kosakata draw
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -5592,7 +5592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Feed
+      value: Draw
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -5604,7 +5604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Feed
+      value: Draw
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft

@@ -2823,7 +2823,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Chapter 2
+  m_text: 'Chapter 3
 
     Vacation'
   m_isRightToLeft: 0
@@ -2896,7 +2896,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
   preserveNumbers: 0
   farsi: 1
-  originalText: 'Chapter 2
+  originalText: 'Chapter 3
 
     Vacation'
   fixTags: 1

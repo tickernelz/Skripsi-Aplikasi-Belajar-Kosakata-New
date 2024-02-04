@@ -140,19 +140,19 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE87\u0650\uFE91\u0652\uFEE6\u064C"
+      value: Fork
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0625\u0650\u0628\u0652\u0646\u064C"
+      value: Fork
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767673804323, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -161,7 +161,7 @@ PrefabInstance:
     - target: {fileID: 7091347767789546896, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f5958c6cf3388fe4da9ed8e5a536b530, type: 3}
+      objectReference: {fileID: 21300000, guid: fe6a2622d78f8604792b25fa68039876, type: 3}
     - target: {fileID: 7091347767796665360, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 10.000061
@@ -328,7 +328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
-      value: soal 10 anak lk
+      value: soal 10 fork
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_IsActive
@@ -336,11 +336,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFEA7\u064E\uFE8E\uFEDD\u064C"
+      value: Stove
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062E\u064E\u0627\u0644\u064C"
+      value: Stove
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768656591968, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -348,35 +356,35 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFECB\u064E\uFEE2\uFC5E"
+      value: Kitchen
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0639\u064E\u0645\u0651\u064C"
+      value: Kitchen
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064E\uFE8F\u064C"
+      value: Bowl
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064E\u0628\u064C"
+      value: Bowl
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768942207568, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -404,11 +412,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEAA\uFC5E"
+      value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u062F\u0651\u064C"
+      value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df464f2da8b39a4468df607b924945b7, type: 3}
@@ -1052,19 +1068,19 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE87\u0650\uFE91\u0652\uFEE6\u064C"
+      value: Buy
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0625\u0650\u0628\u0652\u0646\u064C"
+      value: Buy
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767673804323, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1073,7 +1089,7 @@ PrefabInstance:
     - target: {fileID: 7091347767789546896, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 16fe5c26736120940a250226cbe448c2, type: 3}
+      objectReference: {fileID: 21300000, guid: 54896746514b26446800d9df1814e12d, type: 3}
     - target: {fileID: 7091347767796665360, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 10.000061
@@ -1232,7 +1248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
-      value: soal 8 paman
+      value: soal 8 cook
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_IsActive
@@ -1240,11 +1256,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFEA7\u064E\uFE8E\uFEDD\u064C"
+      value: Clean
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062E\u064E\u0627\u0644\u064C"
+      value: Clean
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768656591968, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1252,35 +1276,35 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFECB\u064E\uFEE2\uFC5E"
+      value: Cook
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0639\u064E\u0645\u0651\u064C"
+      value: Cook
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064E\uFE8F\u064C"
+      value: Bowl
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064E\u0628\u064C"
+      value: Bowl
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768942207568, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1308,11 +1332,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEAA\uFC5E"
+      value: Stove
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u062F\u0651\u064C"
+      value: Stove
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df464f2da8b39a4468df607b924945b7, type: 3}
@@ -1343,19 +1375,19 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064E\uFEA5\u064C"
+      value: Bowl
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064E\u062E\u064C"
+      value: Bowl
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767673804323, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1364,7 +1396,7 @@ PrefabInstance:
     - target: {fileID: 7091347767789546896, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 260c1b76e3d1d1a4699a525eb7ea8cf5, type: 3}
+      objectReference: {fileID: 21300000, guid: 52ef998e1b399eb4ab1167c455bc7b61, type: 3}
     - target: {fileID: 7091347767796665360, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 10.000061
@@ -1499,7 +1531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
-      value: soal 2 paman dari ibu
+      value: soal 2 buy
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_IsActive
@@ -1507,11 +1539,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064E\uFE8F\u064C"
+      value: Family
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064E\u0628\u064C"
+      value: Family
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768656591968, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1519,19 +1559,35 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEAA\uFC5E"
+      value: Cook
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u062F\u0651\u064C"
+      value: Cook
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFEA7\u064E\uFE8E\uFEDD\u064C"
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062E\u064E\u0627\u0644\u064C"
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768942207568, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1551,11 +1607,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFECB\u064E\uFEE2\uFC5E"
+      value: Clean
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0639\u064E\u0645\u0651\u064C"
+      value: Clean
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df464f2da8b39a4468df607b924945b7, type: 3}
@@ -1586,19 +1650,19 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE87\u0650\uFE91\u0652\uFEE8\u064E\uFE94\u064C"
+      value: Bathroom
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0625\u0650\u0628\u0652\u0646\u064E\u0629\u064C"
+      value: Bathroom
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767673804323, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1607,7 +1671,7 @@ PrefabInstance:
     - target: {fileID: 7091347767789546896, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 52109ecfb5b084a4caeeb7ff7fa7d7b1, type: 3}
+      objectReference: {fileID: 21300000, guid: 74aaaab2363886c4c9c04367c577a304, type: 3}
     - target: {fileID: 7091347767796665360, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 10.000061
@@ -1742,7 +1806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
-      value: soal 3 bibi
+      value: soal 3 kitchen
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_IsActive
@@ -1750,11 +1814,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFEA7\u064E\uFE8E\uFEDF\u064E\uFE94\u064C"
+      value: Garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062E\u064E\u0627\u0644\u064E\u0629\u064C"
+      value: Garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768656591968, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1762,27 +1834,35 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEAA\uFC60\uFE93"
+      value: Stair
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u062F\u0651\u064E\u0629\u064C"
+      value: Stair
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFECB\u064E\uFEE4\uFC60\uFE94\u064C"
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0639\u064E\u0645\u0651\u064E\u0629\u064C"
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768942207568, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1802,11 +1882,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE8D\u064F\uFEA7\u0652\uFE96\u064C"
+      value: Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0627\u064F\u062E\u0652\u062A\u064C"
+      value: Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df464f2da8b39a4468df607b924945b7, type: 3}
@@ -1897,6 +1985,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 673045891}
+    - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_text
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: originalText
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7091347767673804323, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1904,7 +2008,7 @@ PrefabInstance:
     - target: {fileID: 7091347767789546896, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e88a549855eab32408135ac30385ee31, type: 3}
+      objectReference: {fileID: 21300000, guid: 0335d580b05faff47b9bab77430e031c, type: 3}
     - target: {fileID: 7091347767796665360, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -285
@@ -2047,23 +2151,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
-      value: soal 9 anak perempuan
+      value: soal 9 play
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_text
+      value: Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: originalText
+      value: Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768656591968, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 673045891}
+    - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_text
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: originalText
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064F\uFEA7\u0652\uFE96\u064C"
+      value: Family
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064F\u062E\u0652\u062A\u064C"
+      value: Family
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768942207568, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2088,6 +2232,22 @@ PrefabInstance:
     - target: {fileID: 7091347768978947665, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -297
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_text
+      value: Clean
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: originalText
+      value: Clean
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df464f2da8b39a4468df607b924945b7, type: 3}
@@ -2118,19 +2278,19 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE87\u0650\uFE91\u0652\uFEE6\u064C"
+      value: Window
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0625\u0650\u0628\u0652\u0646\u064C"
+      value: Window
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767673804323, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2139,7 +2299,7 @@ PrefabInstance:
     - target: {fileID: 7091347767789546896, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2a08da08a7795664e91c90e75bb301fb, type: 3}
+      objectReference: {fileID: 21300000, guid: a19d5797dd19d0e4895e1caac8ab6a25, type: 3}
     - target: {fileID: 7091347767796665360, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 10.000061
@@ -2282,7 +2442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
-      value: soal 5 kakek
+      value: soal 5 garden
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_IsActive
@@ -2290,11 +2450,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFEA7\u064E\uFE8E\uFEDD\u064C"
+      value: Stair
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062E\u064E\u0627\u0644\u064C"
+      value: Stair
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768656591968, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2302,35 +2470,35 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFECB\u064E\uFEE2\uFC5E"
+      value: Bathroom
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0639\u064E\u0645\u0651\u064C"
+      value: Bathroom
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064E\uFE8F\u064C"
+      value: Bedroom
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064E\u0628\u064C"
+      value: Bedroom
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768942207568, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2358,11 +2526,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEAA\uFC5E"
+      value: Garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u062F\u0651\u064C"
+      value: Garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df464f2da8b39a4468df607b924945b7, type: 3}
@@ -2393,19 +2569,19 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE87\u0650\uFE91\u0652\uFEE8\u064E\uFE94\u064C"
+      value: Buy
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0625\u0650\u0628\u0652\u0646\u064E\u0629\u064C"
+      value: Buy
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767673804323, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2414,7 +2590,7 @@ PrefabInstance:
     - target: {fileID: 7091347767789546896, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2ec215ad3e3908048bd9473d88bc516a, type: 3}
+      objectReference: {fileID: 21300000, guid: 2c3f31802fa9c3c419e310eeaa65b44b, type: 3}
     - target: {fileID: 7091347767796665360, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 10.000061
@@ -2549,7 +2725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
-      value: soal 7 ibu
+      value: soal 7 family
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_IsActive
@@ -2557,11 +2733,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFEA7\u064E\uFE8E\uFEDF\u064E\uFE94\u064C"
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062E\u064E\u0627\u0644\u064E\u0629\u064C"
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768656591968, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2569,27 +2753,35 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEAA\uFC60\uFE93"
+      value: Clean
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u062F\u0651\u064E\u0629\u064C"
+      value: Clean
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064F\uFEE1\uFC5E"
+      value: Family
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064F\u0645\u0651\u064C"
+      value: Family
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768942207568, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2609,11 +2801,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE8D\u064F\uFEA7\u0652\uFE96\u064C"
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0627\u064F\u062E\u0652\u062A\u064C"
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df464f2da8b39a4468df607b924945b7, type: 3}
@@ -3334,19 +3534,19 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE87\u0650\uFE91\u0652\uFEE6\u064C"
+      value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0625\u0650\u0628\u0652\u0646\u064C"
+      value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767673804323, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3355,7 +3555,7 @@ PrefabInstance:
     - target: {fileID: 7091347767789546896, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a6c2db5afd056fe4db04a9cff59ae5f4, type: 3}
+      objectReference: {fileID: 21300000, guid: de4f5771d7f57954f9423e4c54adff4b, type: 3}
     - target: {fileID: 7091347767796665360, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 10.000061
@@ -3490,7 +3690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
-      value: soal 4 ayah
+      value: soal 4 Clean
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_IsActive
@@ -3498,11 +3698,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFEA7\u064E\uFE8E\uFEDD\u064C"
+      value: Garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062E\u064E\u0627\u0644\u064C"
+      value: Garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768656591968, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3510,35 +3718,35 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFECB\u064E\uFEE2\uFC5E"
+      value: Kitchen
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0639\u064E\u0645\u0651\u064C"
+      value: Kitchen
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064E\uFE8F\u064C"
+      value: Clean
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064E\u0628\u064C"
+      value: Clean
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768942207568, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3558,11 +3766,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEAA\uFC5E"
+      value: Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u062F\u0651\u064C"
+      value: Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df464f2da8b39a4468df607b924945b7, type: 3}
@@ -3593,19 +3809,19 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE87\u0650\uFE91\u0652\uFEE6\u064C"
+      value: Window
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0625\u0650\u0628\u0652\u0646\u064C"
+      value: Window
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347767673804323, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3614,7 +3830,7 @@ PrefabInstance:
     - target: {fileID: 7091347767789546896, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1bb737b8c0c62d040a726a579b1e3aa5, type: 3}
+      objectReference: {fileID: 21300000, guid: 1843075416d453d49bda8e3c2eee3181, type: 3}
     - target: {fileID: 7091347767796665360, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 10.000061
@@ -3765,7 +3981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
-      value: soal 6 kakak lk
+      value: soal 6 bathroom
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_IsActive
@@ -3773,11 +3989,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064E\uFEA5\u064C"
+      value: Bathroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064E\u062E\u064C"
+      value: Bathroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768656591968, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3785,35 +4009,35 @@ PrefabInstance:
       objectReference: {fileID: 673045891}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFECB\u064E\uFEE2\uFC5E"
+      value: Bedroom
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0639\u064E\u0645\u0651\u064C"
+      value: Bedroom
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064E\uFE8F\u064C"
+      value: Garden
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_fontSize
-      value: 31.55
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064E\u0628\u064C"
+      value: Garden
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768942207568, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3822,6 +4046,10 @@ PrefabInstance:
     - target: {fileID: 7091347768978947662, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
       value: Salah
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768978947662, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768978947664, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3841,11 +4069,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE9F\u064E\uFEAA\uFC5E"
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
       objectReference: {fileID: 0}
     - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u062C\u064E\u062F\u0651\u064C"
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df464f2da8b39a4468df607b924945b7, type: 3}
@@ -4049,6 +4285,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 673045890}
     m_Modifications:
+    - target: {fileID: 399629862138681765, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_text
+      value: ENOUGH!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629862138681765, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629862138681765, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: originalText
+      value: ENOUGH!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629862138681766, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 399629862395263641, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4136,6 +4388,98 @@ PrefabInstance:
     - target: {fileID: 399629862395263642, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: m_Name
       value: Skor
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629862395263642, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629862451029535, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629862767902063, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629862914704894, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_text
+      value: VERY GOOD!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629862914704894, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629862914704894, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: originalText
+      value: VERY GOOD1
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629862914704895, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863604194304, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863604194815, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_text
+      value: GOOD!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863604194815, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863604194815, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: originalText
+      value: GOOD!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863836118041, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863836118043, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_text
+      value: FAIL!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863836118043, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863836118043, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: originalText
+      value: FAIL!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863977807420, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_text
+      value: EXCELLENT!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863977807420, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863977807420, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: originalText
+      value: EXCELLENT!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629863977807421, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629864031657570, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_text
+      value: POOR!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629864031657570, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629864031657570, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: originalText
+      value: POOR!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 399629864031657571, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
@@ -4260,10 +4604,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 673045891}
+    - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_text
+      value: Cook
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: originalText
+      value: Cook
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347767635457786, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7091347767673804323, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 673045891}
+    - target: {fileID: 7091347767789546896, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f02531d2cebe0d345b091c0b37f18af8, type: 3}
     - target: {fileID: 7091347767796665360, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -285
@@ -4398,23 +4762,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_Name
-      value: soal 1 kaka pr
+      value: soal 1 stove
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768297946681, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_text
+      value: Bowl
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: originalText
+      value: Bowl
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768541496001, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7091347768656591968, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 673045891}
+    - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_text
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: originalText
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768672683397, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_text
-      value: "\uFE83\u064F\uFEA7\u0652\uFE96\u064C"
+      value: Stove
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: originalText
-      value: "\u0623\u064F\u062E\u0652\u062A\u064C"
+      value: Stove
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347768737400771, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7091347768942207568, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4431,6 +4839,22 @@ PrefabInstance:
     - target: {fileID: 7091347768978947665, guid: df464f2da8b39a4468df607b924945b7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -297
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_text
+      value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_fontSize
+      value: 37.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: originalText
+      value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091347769018206816, guid: df464f2da8b39a4468df607b924945b7, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df464f2da8b39a4468df607b924945b7, type: 3}
