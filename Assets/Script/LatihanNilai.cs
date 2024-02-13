@@ -112,7 +112,9 @@ public class LatihanNilai : MonoBehaviour
                               float.Parse(snapshot.Child("Latihan2Bab1").Value.ToString())) / 2;
             float skorBab2 = (float.Parse(snapshot.Child("Latihan1Bab2").Value.ToString()) +
                               float.Parse(snapshot.Child("Latihan2Bab2").Value.ToString())) / 2;
-            float totalSkor = (skorBab1 + skorBab2) / 2;
+            float skorBab3 = (float.Parse(snapshot.Child("Latihan1Bab3").Value.ToString()) +
+                              float.Parse(snapshot.Child("Latihan2Bab3").Value.ToString())) / 2;
+            float totalSkor = (skorBab1 + skorBab2 + skorBab3) / 2;
             DBreference.Child("users").Child(userId).Child("TotalSkor").SetValueAsync(totalSkor);
         }
     }
