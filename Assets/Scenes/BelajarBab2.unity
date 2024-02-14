@@ -3629,6 +3629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicList:
   - {fileID: 8300000, guid: 53379c84b37c6674fbcba8abe3b7b350, type: 3}
+  - {fileID: 8300000, guid: 0c2819cdc8ff9f0478c5fd8a3b7520da, type: 3}
   audioId: 0
   audioSource: {fileID: 652864342}
 --- !u!82 &1207611777 stripped

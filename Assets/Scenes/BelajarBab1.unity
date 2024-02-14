@@ -2049,6 +2049,7 @@ MonoBehaviour:
   - {fileID: 1462931530}
   - {fileID: 690836465}
   - {fileID: 1971678043}
+  - {fileID: 1953279414}
   - {fileID: 8385021970661564643}
   modalLatihan: {fileID: 5781282318113895579}
   tombolPrev: {fileID: 479229117}
@@ -2950,7 +2951,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 12de6485160baff4eabcf8272cba7941, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3476,6 +3477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicList:
   - {fileID: 8300000, guid: 192ffca2e6804b843ba0ba9aa5dcfa28, type: 3}
+  - {fileID: 8300000, guid: 6af47404523b8964993dbfb34d443be8, type: 3}
   audioId: 0
   audioSource: {fileID: 1100161213}
 --- !u!82 &1562728767 stripped
@@ -3858,6 +3860,11 @@ CanvasRenderer:
 --- !u!224 &1930848927 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8385021969498790712, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
+  m_PrefabInstance: {fileID: 2124539589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1953279414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
   m_PrefabInstance: {fileID: 2124539589}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1967614429

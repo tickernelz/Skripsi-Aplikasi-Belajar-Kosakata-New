@@ -3629,6 +3629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicList:
   - {fileID: 8300000, guid: c440d76404555954ebe3502dedefa398, type: 3}
+  - {fileID: 8300000, guid: c8065914ad7089549ac8e116ee5645a7, type: 3}
   audioId: 0
   audioSource: {fileID: 652864342}
 --- !u!82 &1207611777 stripped
@@ -4392,7 +4393,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 8c5e3369b1055a846bc587e18db920bf, type: 3}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_Name
-      value: Kosakata surving
+      value: Kosakata surfing
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969498790694, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_IsActive
@@ -4484,7 +4485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_text
-      value: Surving
+      value: Surfing
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_fontSize
@@ -4496,7 +4497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: originalText
-      value: Surving
+      value: Surfing
       objectReference: {fileID: 0}
     - target: {fileID: 8385021969781582641, guid: 8ad314dfc4c29c9d6bd725c1e473ef98, type: 3}
       propertyPath: m_isRightToLeft
