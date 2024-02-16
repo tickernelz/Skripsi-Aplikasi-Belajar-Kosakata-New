@@ -349,6 +349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumlahLatihanBab1: 2
   jumlahLatihanBab2: 2
+  jumlahLatihanBab3: 2
   scoreboardContent: {fileID: 1825736442}
   scoreElement: {fileID: 1879445940651037232, guid: 829cd42e5df49e047a3a4afb1ba6859d, type: 3}
 --- !u!222 &26892682
@@ -1138,7 +1139,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 673045886}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &714869299
 GameObject:
   m_ObjectHideFlags: 0
