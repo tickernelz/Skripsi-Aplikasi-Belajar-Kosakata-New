@@ -3,7 +3,16 @@ guid: e72673fc8f6291f1d8fe849cea798cf0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - signupFailNotification: {fileID: 2938075192459280114, guid: 1ea9728744a389443ad58d7bad6801f2, type: 3}
+  - signupSuccessNotification: {fileID: 634769213061972080, guid: 000e2a33acba2eb469c190e0b72fdd07, type: 3}
+  - signinFailNotification: {fileID: 7606829176821323008, guid: 4e2124cb50362cc43a748489de8caf61, type: 3}
+  - signinSuccessNotification: {fileID: 2895906074070895856, guid: bafc83871f5cc004c8bd2d89b850f652, type: 3}
+  - logoutNotification: {fileID: 8895295083758106771, guid: 1a1edcbe7a8d693468ea0e571ddd5598, type: 3}
+  - emailSignup: {fileID: 2719920955007759833, guid: 4ee59a68cb88f1c4283a88cc49d51af8, type: 3}
+  - passwordSignup: {fileID: 8049855287385370616, guid: 9ec2841cf33ba004bb6ec494ee16cb4e, type: 3}
+  - emailSignin: {fileID: 2719920955007759833, guid: 4ee59a68cb88f1c4283a88cc49d51af8, type: 3}
+  - passwordSignin: {fileID: 8049855287385370616, guid: 9ec2841cf33ba004bb6ec494ee16cb4e, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

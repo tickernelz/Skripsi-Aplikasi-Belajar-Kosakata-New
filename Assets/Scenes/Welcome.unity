@@ -448,6 +448,7 @@ GameObject:
   - component: {fileID: 673045888}
   - component: {fileID: 673045887}
   - component: {fileID: 673045891}
+  - component: {fileID: 673045892}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -560,6 +561,14 @@ MonoBehaviour:
   namaObj: {fileID: 3351504397847471578}
   sekolahObj: {fileID: 2142514109}
   timeLeft: 7
+--- !u!81 &673045892
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673045886}
+  m_Enabled: 1
 --- !u!1001 &811923937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -654,6 +663,22 @@ PrefabInstance:
     - target: {fileID: 4137692557630714813, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137692557630714815, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 16702ac4796204d41857b301a7c65b0b, type: 3}
+    - target: {fileID: 4137692557630714815, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
+      propertyPath: m_Color.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137692557630714815, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
+      propertyPath: m_Color.g
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137692557630714815, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
+      propertyPath: m_Color.r
+      value: 0.65882355
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d1b32e990c437d9ca344df3cf42f069, type: 3}
@@ -816,15 +841,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
       propertyPath: m_text
-      value: "\uFE8D\uFEDF\uFEE4\uFEAA\uFEAD\uFEB3\uFE94:"
+      value: 'School :'
       objectReference: {fileID: 0}
     - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
       propertyPath: m_fontSize
-      value: 52.6
+      value: 62.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
       propertyPath: originalText
-      value: "\u0627\u0644\u0645\u062F\u0631\u0633\u0629:"
+      value: 'School :'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
       propertyPath: m_enableAutoSizing
@@ -884,7 +917,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d5717f70fbb07c043881d5dd3332b17f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0297587cf3fda8240a07c062b0766683, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1067,15 +1100,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
       propertyPath: m_text
-      value: "\uFE8D\uFEB3\uFEE2:"
+      value: 'Your Name :'
       objectReference: {fileID: 0}
     - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
       propertyPath: m_fontSize
-      value: 52.6
+      value: 62.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
       propertyPath: originalText
-      value: "\u0627\u0633\u0645:"
+      value: 'Your Name :'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
       propertyPath: m_enableAutoSizing
@@ -1209,6 +1250,10 @@ PrefabInstance:
     - target: {fileID: 5155669026056647043, guid: 9a54572a2eca5dcee84a702c605a14ec, type: 3}
       propertyPath: m_text
       value: Nama Placeholder
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155669026056647043, guid: 9a54572a2eca5dcee84a702c605a14ec, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6247603981935783773, guid: 9a54572a2eca5dcee84a702c605a14ec, type: 3}
       propertyPath: m_Name
@@ -1403,6 +1448,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6654306427582141437, guid: ba3e3df566f195511831921c2f352183, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
+      propertyPath: m_text
+      value: Welcome
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
+      propertyPath: originalText
+      value: Welcome
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654306427582141438, guid: ba3e3df566f195511831921c2f352183, type: 3}
+      propertyPath: m_isRightToLeft
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
