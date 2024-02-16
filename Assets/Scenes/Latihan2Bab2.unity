@@ -4897,7 +4897,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 399629862138681765, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: m_text
-      value: Enough!
+      value: '!hguonE'
       objectReference: {fileID: 0}
     - target: {fileID: 399629862138681765, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: originalText
@@ -5001,7 +5001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 399629862914704894, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: m_text
-      value: Very Good!
+      value: '!dooG yreV'
       objectReference: {fileID: 0}
     - target: {fileID: 399629862914704894, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: originalText
@@ -5017,7 +5017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 399629863604194815, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: m_text
-      value: Good!
+      value: '!dooG'
       objectReference: {fileID: 0}
     - target: {fileID: 399629863604194815, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: originalText
@@ -5029,7 +5029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 399629863836118043, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: m_text
-      value: Fail!!!
+      value: '!!!liaF'
       objectReference: {fileID: 0}
     - target: {fileID: 399629863836118043, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: originalText
@@ -5037,7 +5037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 399629863977807420, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: m_text
-      value: Excellent!
+      value: '!tnellecxE'
       objectReference: {fileID: 0}
     - target: {fileID: 399629863977807420, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: originalText
@@ -5053,7 +5053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 399629864031657570, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: m_text
-      value: Poor!!
+      value: '!!rooP'
       objectReference: {fileID: 0}
     - target: {fileID: 399629864031657570, guid: ba21388a993fcfb44a6581b18f3fb0ec, type: 3}
       propertyPath: originalText

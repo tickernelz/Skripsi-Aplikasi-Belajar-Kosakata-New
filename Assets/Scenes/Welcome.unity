@@ -1251,6 +1251,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Nama Placeholder
       objectReference: {fileID: 0}
+    - target: {fileID: 5155669026056647043, guid: 9a54572a2eca5dcee84a702c605a14ec, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6247603981935783773, guid: 9a54572a2eca5dcee84a702c605a14ec, type: 3}
       propertyPath: m_Name
       value: Nama Body
