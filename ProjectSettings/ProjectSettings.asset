@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Reza
-  productName: Bahasa Arab Yang Menyenangkan
+  productName: English Is Fun
   defaultCursor: {fileID: 2800000, guid: 36a0edd7c267a7d4daf4cead91ecb4db, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -136,7 +136,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.1.2
+  bundleVersion: 1.0
   preloadedAssets:
   - {fileID: 3992435545940754149, guid: 1d94f9f73ef4bc2cca77edb6ee5447b5, type: 2}
   - {fileID: 11400000, guid: 265394031cffe8ee68e59af191adcc76, type: 2}
