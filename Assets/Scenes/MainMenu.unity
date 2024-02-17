@@ -2233,6 +2233,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 31
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -2260,8 +2261,8 @@ RectTransform:
   - {fileID: 511741824}
   - {fileID: 1685205313}
   - {fileID: 1758274428}
-  - {fileID: 1033864107}
   - {fileID: 767387864}
+  - {fileID: 1033864107}
   - {fileID: 1955686394}
   - {fileID: 3442324813477145073}
   - {fileID: 773789863}
@@ -2820,7 +2821,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &925463920
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2837,7 +2838,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!222 &925463921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3008,7 +3010,7 @@ RectTransform:
   - {fileID: 1256860129}
   - {fileID: 261034423}
   m_Father: {fileID: 673045890}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5059,6 +5061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -6854,7 +6857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6627801167627624268, guid: 8d8fd392d0f081a4190bd8caa20b56eb, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6627801167627624268, guid: 8d8fd392d0f081a4190bd8caa20b56eb, type: 3}
       propertyPath: m_AnchorMax.x
