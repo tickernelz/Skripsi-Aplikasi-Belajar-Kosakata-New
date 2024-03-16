@@ -124,6 +124,8 @@ public class AuthManager : MonoBehaviour
         mDatabaseRef.Child("users").Child(userId).Child("Latihan2Bab1").SetValueAsync(0);
         mDatabaseRef.Child("users").Child(userId).Child("Latihan1Bab2").SetValueAsync(0);
         mDatabaseRef.Child("users").Child(userId).Child("Latihan2Bab2").SetValueAsync(0);
+        mDatabaseRef.Child("users").Child(userId).Child("Latihan1Bab3").SetValueAsync(0);
+        mDatabaseRef.Child("users").Child(userId).Child("Latihan2Bab3").SetValueAsync(0);
         mDatabaseRef.Child("users").Child(userId).Child("TotalSkor").SetValueAsync(0);
     }
     

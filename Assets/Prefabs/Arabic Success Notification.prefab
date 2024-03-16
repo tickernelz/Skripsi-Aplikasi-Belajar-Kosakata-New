@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 370, y: -27.5}
+  m_AnchoredPosition: {x: 30, y: -27.5}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7930446085375158173
@@ -178,9 +178,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uFE97\uFEEC\uFE8E\uFEE7\uFBFF\uFEE8\uFE8E \u060C \uFEDF\uFED8\uFEAA \uFED7\uFEE4\uFE96
-    \uFE91\uFE98\uFEB4\uFEA0\uFBFF\uFEDE \uFEA3\uFEB4\uFE8E\uFE8F \uFE91\uFEE8\uFEA0\uFE8E\uFEA1"
-  m_isRightToLeft: 1
+  m_text: Your answer correct!
+  m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_sharedMaterial: {fileID: -6949820610600499109, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_fontSharedMaterials: []
@@ -213,7 +212,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -250,9 +249,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
   preserveNumbers: 0
   farsi: 1
-  originalText: "\u062A\u0647\u0627\u0646\u064A\u0646\u0627 \u060C \u0644\u0642\u062F
-    \u0642\u0645\u062A \u0628\u062A\u0633\u062C\u064A\u0644 \u062D\u0633\u0627\u0628
-    \u0628\u0646\u062C\u0627\u062D"
+  originalText: Your answer correct!
   fixTags: 1
   forceFix: 0
 --- !u!1 &7930446086031984790
@@ -559,7 +556,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -17.5, y: -27.5}
+  m_AnchoredPosition: {x: 17, y: -27.5}
   m_SizeDelta: {x: -65, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7930446086959445845
@@ -610,8 +607,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uFEE7\uFEA0\uFE8E\uFEA1!"
-  m_isRightToLeft: 1
+  m_text: Congratulation!
+  m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_sharedMaterial: {fileID: -6949820610600499109, guid: 3fbde2e562e333d488bc46986fc6f4f1, type: 2}
   m_fontSharedMaterials: []
@@ -644,7 +641,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -681,7 +678,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
   preserveNumbers: 0
   farsi: 1
-  originalText: "\u0646\u062C\u0627\u062D!"
+  originalText: Congratulation!
   fixTags: 1
   forceFix: 0
 --- !u!1 &7930446087283037453

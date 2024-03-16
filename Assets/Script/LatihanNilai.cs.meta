@@ -3,7 +3,12 @@ guid: 2dfc1bb3eee1f80249e4797f6312c029
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - salahNotification: {instanceID: 0}
+  - benarNotification: {instanceID: 0}
+  - skorObject: {instanceID: 0}
+  - nilaiObject: {instanceID: 0}
+  - timerObject: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
