@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946535973131",
+    "project_id": "english-is-fun-dbf4b",
+    "storage_bucket": "english-is-fun-dbf4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946535973131:android:93629481acb8b20d69e20e",
+        "android_client_info": {
+          "package_name": "com.EnglishIsFun.Reza"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-QlpY4m-hNOE2peOgs4l2-4s5QHX2Qmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

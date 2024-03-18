@@ -19,15 +19,17 @@ public class AuthManager : MonoBehaviour
     // Start is called before the first frame update
     public virtual void Start()
     {
-        Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task =>
-        {
-            Firebase.DependencyStatus dependencyStatus = task.Result;
+        Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task => {
+            var dependencyStatus = task.Result;
             if (dependencyStatus == Firebase.DependencyStatus.Available)
             {
+                English Is Fun = Firebase.FirebaseApp.DefaultInstance;
             }
             else
             {
-                Debug.LogError("Could not resolve all Firebase dependencies: " + dependencyStatus);
+                UnityEngine.Debug.LogError(System.String.Format(
+                  "Could not resolve all Firebase dependencies: {0}", dependencyStatus));
+                
             }
         });
     }
